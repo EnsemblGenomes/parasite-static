@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Hymenolepis_microstoma/Hymenolepis_microstoma.about.html on Thu Jun 11 13:44:32 2020)
+The cestode _Hymenolepis microstoma_, or rodent tapeworm, is an intestinal dwelling parasite of mice and rats. Adult worms live in the bile duct and small intestines, and larvae metamorphose in the haemocoel of beetles. _H. microstoma_ is prevalent in rodents worldwide causing hymenolepiasis, but rarely infects humans. It is used as a laboratory model organism.

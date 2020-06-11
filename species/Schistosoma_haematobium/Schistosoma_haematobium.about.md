@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Schistosoma_haematobium/Schistosoma_haematobium.about.html on Thu Jun 11 13:45:36 2020)
+The trematode _Schistosoma haematobium_ is one of the three major infectious agents responsible for the chronic debilitating disease schistosomiasis found throughout Africa and the Middle East and southern Europe. The intermediate hosts for the parasite are snails from the genus Bulinus and Physopsis and the definitive host is a human. This parasite invades the urinary system and bladder damage can lead to death.

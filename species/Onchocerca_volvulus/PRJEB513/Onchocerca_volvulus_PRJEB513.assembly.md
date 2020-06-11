@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Onchocerca_volvulus/PRJEB513/Onchocerca_volvulus_PRJEB513.assembly.html on Thu Jun 11 13:45:05 2020)
+The reference genome for _Onchocerca volvulus_ has been produced by the [Parasite Genomics group at the Wellcome Trust Sanger Institute](http://www.sanger.ac.uk/research/projects/parasitegenomics/), in collaboration with Sara Lustigman (New York Blood Center). A combination of deep sequencing and optical mapping was used on material from a single adult worm from the Republic of Cameroon.

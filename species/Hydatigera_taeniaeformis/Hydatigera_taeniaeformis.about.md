@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Hydatigera_taeniaeformis/Hydatigera_taeniaeformis.about.html on Thu Jun 11 13:44:30 2020)
+The cestode _Hydatigera taeniaeformis_ (formerly known as _Taenia taeniaeformis_) is a parasite of cats. The intermediate hosts of this tapeworm are rodents and lagomorphs (rabbits) which the cat must kill and eat in order to acquire the tapeworm infection.

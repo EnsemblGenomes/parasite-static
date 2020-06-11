@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Schmidtea_mediterranea/PRJNA12585/Schmidtea_mediterranea_PRJNA12585.assembly.html on Thu Jun 11 13:45:45 2020)
+The _S. mediterranea_ genome has been sequenced by the [Stowers Institute ](http://www.stowers.org/)and the [Genome Institute at Washington University](http://genome.wustl.edu/). The assembly version represented is SmedGD_v1.3 from [SmedGD](http://smedgd.stowers.org/index.html), as described by [Robb et al (2007)](http://europepmc.org/abstract/MED/17881371).

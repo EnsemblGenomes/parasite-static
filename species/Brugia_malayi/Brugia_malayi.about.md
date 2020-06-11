@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Brugia_malayi/Brugia_malayi.about.html on Thu Jun 11 13:43:26 2020)
+The nematode _Brugia malayi_ is a gonochoristic (male-female) filarial parasite, of medical interest because it infects mosquito vectors (_Aedes_, _Anopheles_ and _Culex_) and humans, and is phylogenetically representative of other infectious nematodes. Infection of humans by _B. malayi_ causes filariasis, also known as elephantiasis. _B. malayi_ is readily infective in laboratory animals.

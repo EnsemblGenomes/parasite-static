@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Hymenolepis_nana/Hymenolepis_nana.about.html on Thu Jun 11 13:44:33 2020)
+The cestode _Hymenolepis nana_, or dwarf tapeworm (previously known as Vampirolepis nana, Hymenolepis fraterna, and Taenia nana) is a cosmopolitan species most common in temperate zones. It is most often seen in children in countries in which sanitation and hygiene are inadequate and causes hymenolepiasis which rarely has symptoms.

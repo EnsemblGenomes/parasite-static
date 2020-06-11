@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Wuchereria_bancrofti/PRJNA275548/Wuchereria_bancrofti_PRJNA275548.assembly.html on Thu Jun 11 13:46:33 2020)
+The _W. bancrofti_ genome has been sequenced by the [Zimmerman laboratory at Case Western Reserve University](http://www.case.edu/orgs/cghd/faculty-research/peter-zimmerman.htm) as described in [Small et al 2016](http://europepmc.org/abstract/MED/26850696).

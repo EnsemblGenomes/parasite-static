@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Caenorhabditis_remanei/PRJNA248909/Caenorhabditis_remanei_PRJNA248909.assembly.html on Thu Jun 11 13:43:40 2020)
+The assembly of the strain PX356 was produced at University of Oregon, as described in [Fierst et al. (2015) ](http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005323).\n\nThis assembly supersedes the assembly ASM164373v1 published in the WormBase release WS250.

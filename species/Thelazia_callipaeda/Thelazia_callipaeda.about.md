@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Thelazia_callipaeda/Thelazia_callipaeda.about.html on Thu Jun 11 13:46:07 2020)
+The nematode _Thelazia callipaeda_, or eyeworm, is a parasite of most mammals (including humans, dogs and cats). It is the most common cause of thelaziasis, symptoms of the eye infestation include conjunctivitis, excessive watering (lacrimation), visual impairment, and ulcers or scarring of the cornea.

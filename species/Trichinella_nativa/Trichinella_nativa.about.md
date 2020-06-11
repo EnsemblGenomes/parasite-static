@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Trichinella_nativa/Trichinella_nativa.about.html on Thu Jun 11 13:46:13 2020)
+The nematode _Trichinella nativa_ is a parasite of a wide variety of mammals and birds. It is highly pathogenic and has a high resistance to freezing as it is encapsulated. Trichinellosis is caused by the ingestion of undercooked meat containing encysted larvae, the first signs include nausea, diarrhea, vomiting, fatigue, fever, and abdominal discomfort.

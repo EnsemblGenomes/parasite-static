@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Necator_americanus/Necator_americanus.about.html on Thu Jun 11 13:44:55 2020)
+The nematode _Necator americanus_, or human hookworm, lives in the intestines and is particularly harmful to children, causing chronic anemia, stunting growth and impairing intellectual development. _N. americanus_ is the most prevalent species of human parasite and therefore important from a public health standpoint.

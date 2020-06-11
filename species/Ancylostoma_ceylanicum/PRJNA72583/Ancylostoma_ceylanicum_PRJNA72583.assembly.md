@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Ancylostoma_ceylanicum/PRJNA72583/Ancylostoma_ceylanicum_PRJNA72583.assembly.html on Thu Jun 11 13:43:15 2020)
+The genome assembly was produced by the [Mitreva laboratory at the Genome Institute of Washington University](http://genome.wustl.edu/people/groups/detail/mitreva-lab/), and submitted in late 2013 as part of the 50 Helminth Genomes project.

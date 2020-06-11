@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Heterodera_glycines/PRJNA381081/Heterodera_glycines_PRJNA381081.annotation.html on Thu Jun 11 13:44:23 2020)
+Gene models were obtained from AUGUSTUS predictions, guided by de novo evidence and available RNASeq data. \n\nHere we present a slightly filtered down version of the annotation published by authors on their site, [ http://scnbase.org ](https://scnbase.org/download/annotated-gene-models-heterodera-glycines-v2-iprscan).

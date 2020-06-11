@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Loa_loa/Loa_loa.about.html on Thu Jun 11 13:44:34 2020)
+The nematode _Loa loa_, or eye worm, is the filarial species that causes Loa loa filariasis. _L. loa_ is one of three parasitic filarial nematodes that cause human subcutaneous filariasis in Africa and India. Maturing larvae and adults of the "eye worm" occupy the subcutaneous layer of the skin  the fat layer  of humans, causing disease.

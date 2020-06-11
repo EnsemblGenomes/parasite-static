@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Globodera_rostochiensis/PRJEB13504/Globodera_rostochiensis_PRJEB13504.assembly.html on Thu Jun 11 13:44:14 2020)
+The genome of _G. rostochiensis_ was produced by the [Blaxter Laboratory at the University of Edinburgh](http://www.nematodes.org/) in collaboration with the [Parasite Genomics Group at the Wellcome Trust Sanger Institute](http://www.sanger.ac.uk/research/projects/parasitegenomics/), as described in [Eves-van den Akker et al (2016)](http://europepmc.org/abstract/MED/27286965)

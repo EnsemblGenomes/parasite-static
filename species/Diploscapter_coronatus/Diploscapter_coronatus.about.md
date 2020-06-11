@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Diploscapter_coronatus/Diploscapter_coronatus.about.html on Thu Jun 11 13:43:54 2020)
+Diploscapter coronatus is a free-living nematode, phylogeneticaly placed in between the model organism Caenorhabditis elegans and its satellite Pristionchus pacificus. It reproduces parthenogenetically- neither males or sperm have been observed and some steps of meiosis are skipped.

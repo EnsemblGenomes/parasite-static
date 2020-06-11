@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Opisthorchis_viverrini/Opisthorchis_viverrini.about.html on Thu Jun 11 13:45:08 2020)
+_Opisthorchis viverrini_, commonly known as the Southeast Asian liver fluke, is a trematode parasite from the family Opisthorchiidae that attacks the area of the bile duct. Infection is acquired when people ingest raw or undercooked fish. It causes the disease opisthorchiasis (also called clonorchiasis). The disease is linked cholangiocarcinoma, a cancer of the gall bladder and/or its ducts.

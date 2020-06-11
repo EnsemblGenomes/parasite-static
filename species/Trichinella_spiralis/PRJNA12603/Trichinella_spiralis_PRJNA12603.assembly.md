@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Trichinella_spiralis/PRJNA12603/Trichinella_spiralis_PRJNA12603.assembly.html on Thu Jun 11 13:46:20 2020)
+The _T. spiralis_ genome assembly was produced by the [Mitreva group at the Genome Institute of Washington University](http://genome.wustl.edu/people/groups/detail/mitreva-lab/), as described by [Mitreva et al (2011)](http://europepmc.org/abstract/MED/21336279).

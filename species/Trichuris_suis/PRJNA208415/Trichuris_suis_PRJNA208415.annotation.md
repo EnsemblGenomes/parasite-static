@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Trichuris_suis/PRJNA208415/Trichuris_suis_PRJNA208415.annotation.html on Thu Jun 11 13:46:28 2020)
+The gene predictions were made by the [Gasser laboratory at the University of Melbourne](http://www.gasserlab.org/), as described by [Jex et al (2014)](http://europepmc.org/abstract/MED/24929829). The gene set represented here is that submitted directly to WormBase in early 2014.

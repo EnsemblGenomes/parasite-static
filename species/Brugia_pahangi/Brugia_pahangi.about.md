@@ -1,0 +1,4 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Brugia_pahangi/Brugia_pahangi.about.html on Thu Jun 11 13:43:27 2020)
+_Brugia pahangi_ is a filarial parasite that is transmitted to domestic cats and dogs in South East Asia when infected mosquitoes take a blood meal. It is used as a model for filarial infections because it is relatively easy to maintain the laboratory. It is closely related to the human parasite _Brugia malayi_ and studies suggest that it may be zoonotic, developing to maturity in humans.\n
+
+\n**Announcement:** The Devaney group have small numbers of adult _B. pahangi_ and larger numbers of Mf available to others for research purposes.  If this would be useful, please contact eileen.devaney@glasgow.ac.uk with approximate numbers, life stage required and whether fresh or frozen material is suitable. The _B. pahangi_ life cycle is funded by a grant from the Wellcome Trust (208390/Z/17/Z).

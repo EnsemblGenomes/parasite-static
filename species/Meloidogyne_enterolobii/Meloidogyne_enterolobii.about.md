@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Meloidogyne_enterolobii/Meloidogyne_enterolobii.about.html on Thu Jun 11 13:44:41 2020)
+The nematode _ Meloidogyne enterolobii_, a root-knot nematode, infects a variety of crops such as eggplant, bell pepper, soybean, sweet potato, tobacco, tomato, or watermelon. It is able to reproduce on Mi-1 gene carrying crops that are resistant to other root-knot nematodes, making the species a growing economic threat.

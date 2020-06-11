@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Schmidtea_mediterranea/PRJNA379262/Schmidtea_mediterranea_PRJNA379262.annotation.html on Thu Jun 11 13:45:45 2020)
+The annotation is a set of Augustus predictions filtered for overlap with known repeats and coverage, as described by [Rozanski et al. (2019)](https://www.ncbi.nlm.nih.gov/pubmed/30496475). WormBase retrieved it from [PlanMine 3.0](http://planmine.mpi-cbg.de/planmine/aspect.do?name=Gene%20Predictions).

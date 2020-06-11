@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Trichinella_spiralis/PRJNA12603/Trichinella_spiralis_PRJNA12603.annotation.html on Thu Jun 11 13:46:20 2020)
+The gene predictions were made by [Mitreva group at the Genome Institute of Washington University](http://genome.wustl.edu/people/groups/detail/mitreva-lab/), as described by [Mitreva et al (2011)](http://europepmc.org/abstract/MED/21336279). The version represented here is consistent with the INSDC records.

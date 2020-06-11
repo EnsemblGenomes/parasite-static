@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Steinernema_scapterisci/PRJNA204942/Steinernema_scapterisci_PRJNA204942.assembly.html on Thu Jun 11 13:45:53 2020)
+The genome assembly was produced by the California Institute of Technology in collaboration with the University of California Irvine. The version of the genome represented here is that submitted directly to WormBase in 2014, which is similar to, but not exactly the same as, NCBI assembly [GCA_000757745.1](http://www.ncbi.nlm.nih.gov/assembly/GCA_000757745.1).

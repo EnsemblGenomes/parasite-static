@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Parascaris_univalens/PRJNA386823/Parascaris_univalens_PRJNA386823.assembly.html on Thu Jun 11 13:45:16 2020)
+The assembly was produced by the [ Davis laboratory at the University of Colorado ](http://www.ucdenver.edu/academics/colleges/medicalschool/departments/biochemistry/Faculty/PrimaryFaculty/Pages/Davis.aspx), as described by [ Wang et al. (2017) ](https://www.ncbi.nlm.nih.gov/pubmed/29118011)

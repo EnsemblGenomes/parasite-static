@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Echinococcus_granulosus/PRJNA182977/Echinococcus_granulosus_PRJNA182977.assembly.html on Thu Jun 11 13:44:04 2020)
+The genome of _E. granulosus_ was sequenced using Roche 454 technology and assembled with Newbler. This genome was produced by the Key Laboratory of Health and Disease Genomics, in the Chinese National Human Genome Center, as described in [Zheng and al (2013)](http://europepmc.org/abstract/MED/24013640).

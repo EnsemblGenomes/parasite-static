@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Schmidtea_mediterranea/PRJNA12585/Schmidtea_mediterranea_PRJNA12585.annotation.html on Thu Jun 11 13:45:45 2020)
+The original gene predictions were made by the [Stowers Institute](http://www.stowers.org/), as described by [Robb et al (2007)](http://europepmc.org/abstract/MED/17881371). The gene models have since been iteratively improved. The version represented here is v1.3 from [SmedGD](http://smedgd.stowers.org/index.html).

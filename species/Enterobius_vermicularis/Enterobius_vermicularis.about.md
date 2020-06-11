@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Enterobius_vermicularis/Enterobius_vermicularis.about.html on Thu Jun 11 13:44:08 2020)
+The nematode _Enterobius vermicularis_, or human pinworm, is an intestinal parasite of humans that causes enterobiasis. It has a worldwide distribution and is the most common helminth infection in the many developed countries. Infection is transferred host to host through contamination, and children have higher prevalence rate, possibly due to finger sucking and nail biting.

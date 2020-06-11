@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Globodera_pallida/Globodera_pallida.about.html on Thu Jun 11 13:44:12 2020)
+The nematode _Globodera pallida_, or golden nematode or potato cyst nematode (PCN), is one of the most economically important nematode problems of the U.K. potato industry. PCN imposes an annual cost in excess of 50 million on U.K. potato growers and threaten the future of the crop for many growers. Effective control of _G. pallida_ is an essential requirement to maintain the competitiveness of U.K. potato production.

@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Ascaris_suum/Ascaris_suum.about.html on Thu Jun 11 13:43:23 2020)
+The nematode _Ascaris suum_ is the large roundworm parasite of pigs and the causative agent of ascariasis. It is closely related to _A. lumbricoides_, the human large roundworm parasite, one of the most common human parasitic infections in the world. Cross infections of _A. suum_ to humans and _A. lumbricoides_ to pigs has been reported.

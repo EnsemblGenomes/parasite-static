@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Meloidogyne_incognita/Meloidogyne_incognita.about.html on Thu Jun 11 13:44:47 2020)
+The nematode _Meloidogyne incognita_, also known as the southern root-knot nematode, is able to infect the roots of almost all cultivated plants. It is an obligatory sedentary parasite that reproduces by mitotic parthenogenesis. _M. incognita_ can infect _Arabidopsis thaliana_, making it a key model system for the understanding of metazoan adaptations to plant parasitism.

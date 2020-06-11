@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Steinernema_carpocapsae/Steinernema_carpocapsae.about.html on Thu Jun 11 13:45:48 2020)
+_Steinernema carpocapsae_ is a parasitic nematode capable of infecting a broad range of insect species. The infective juvenile, which emerges from a depleted host cadaver to seek out a new insect to infect, is the only free-living stage. Infective juveniles tend to be found at the soil surface, and use an ambushing search strategy in which they stand on their tails and attach to a passing insect.

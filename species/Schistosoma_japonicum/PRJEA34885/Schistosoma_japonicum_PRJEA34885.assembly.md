@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Schistosoma_japonicum/PRJEA34885/Schistosoma_japonicum_PRJEA34885.assembly.html on Thu Jun 11 13:45:38 2020)
+The _S. japonicum_ genome was sequenced by a consortium led by the [Chinese National Human Genome Center](http://chgc.sh.cn/en/) in Shanghai, and published in [2009](http://europepmc.org/abstract/MED/19606140). The assembly version represented here is the December 2013 snapshot, and corresponds with INSDC assembly [ ASM15177v1 ](http://www.ncbi.nlm.nih.gov/assembly/GCA_000151775.1).

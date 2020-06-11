@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Echinococcus_granulosus/Echinococcus_granulosus.about.html on Thu Jun 11 13:44:02 2020)
+The cestode _Echinococcus granulosus_ is a member of the Cyclophyllidea, which comprise the majority of tapeworms that are of medical importance. Adult _E. granulosus_ parasitise the small intestines of dogs and other canids. Larval stages cause the serious and life-threatening human diseases cystic echinococcosis. _E. granulosus_ has a worldwide distribution.

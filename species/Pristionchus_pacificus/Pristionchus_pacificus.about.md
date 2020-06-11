@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Pristionchus_pacificus/Pristionchus_pacificus.about.html on Thu Jun 11 13:45:28 2020)
+_Pristionchus pacificus_ is part of the diplogastrids, a clade nested within the rhabditid group where _C. elegans_ belongs. _P. pacificus_ is found on several continents, associated with beetles. _P. pacificus_ shares many experimental advantages with _C. elegans_ and is being used for developmental and ecological studies.

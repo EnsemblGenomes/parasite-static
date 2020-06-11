@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Romanomermis_culicivorax/Romanomermis_culicivorax.about.html on Thu Jun 11 13:45:32 2020)
+The nematode _Romanomermis culicivorax_ is an entomopathogenic parasite that invades larvae of various mosquito species killing these when emerging at the J4 stage. _R. culicivorax_ is being tested as a biological pest control to fight malaria. Although only distantly related to _C. elegans_ it has proved to be a particularly amenable study object for analyzing embryogenesis.

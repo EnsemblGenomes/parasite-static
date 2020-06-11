@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Trichuris_suis/Trichuris_suis.about.html on Thu Jun 11 13:46:27 2020)
+The nematode _Trichuris suis_, or whipworm, is a parasite of pigs that is found worldwide, but is most prevalent in warm, humid climates. Critical infestations of _T. suis_ may cause acute morbidity and mortality in young female pigs. _T. suis_ has been shown in trials to colonize humans briefly without triggering infections.

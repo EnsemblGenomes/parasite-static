@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Strongyloides_stercoralis/Strongyloides_stercoralis.about.html on Thu Jun 11 13:45:56 2020)
+The nematode _Strongyloides stercoralis_, or human threadworm, is a wide-spread, minute gastro-intestinal parasite of humans, occurring principally in the tropics and sub-tropics. Infection of immunosuppressed individuals can result in disseminated strongyloidiasis, in which worms occur throughout the body and can be fatal.

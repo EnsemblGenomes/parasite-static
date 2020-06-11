@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Schistosoma_bovis/Schistosoma_bovis.about.html on Thu Jun 11 13:45:34 2020)
+The trematode _Schistosoma bovis_ is a parasite of sheep, cattle and goats in North Africa, Mediterranean Europe and the Middle East. It exists in the same geographical areas as _Schistosoma haematobium_, with which it can hybridise.\n\n_S. bovis-S. haematobium_ hybrids can infect humans, and have been reported in West African countries, namely Senegal, and during a 2013 outbreak on Corsica.

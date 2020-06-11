@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Trichinella_murrelli/Trichinella_murrelli.about.html on Thu Jun 11 13:46:12 2020)
+One of the _Trichinella_ genus of parasitic nematodes, the causative agents of trichinosis (also known as trichinellosis). _Trichinella murrelli_ is found exclusively in the Nearctic and is considered to be the predominant species circulating among sylvatic hosts in temperate North America. Viable _T. murrelli_ has been isolated from black bears, raccoons, red foxes, bob cats and coyotes.

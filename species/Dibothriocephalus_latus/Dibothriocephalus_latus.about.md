@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Dibothriocephalus_latus/Dibothriocephalus_latus.about.html on Thu Jun 11 13:43:51 2020)
+The cestode _ Dibothriocephalus latus_, also known as _Diphyllobothrium latum_ or broad fish tapeworm, is a parasite of fish and mammals. The parasite causes diphyllobothriasis in humans through consumption of raw or undercooked fish. Symptoms of diphyllobothriasis are generally mild, and can include diarrhoea, abdominal pain, vomiting, weight loss, fatigue, constipation and discomfort.

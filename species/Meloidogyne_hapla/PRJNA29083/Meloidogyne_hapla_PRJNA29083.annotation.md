@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Meloidogyne_hapla/PRJNA29083/Meloidogyne_hapla_PRJNA29083.annotation.html on Thu Jun 11 13:44:46 2020)
+The gene predictions were made by [Plant Nematode Genomics group at North Carolina State University](http://www.pngg.org/cbnp/index.php), as described by [Opperman et al (2008)](http://europepmc.org/abstract/MED/18809916). The version represented here is that submitted to WormBase in 2008.

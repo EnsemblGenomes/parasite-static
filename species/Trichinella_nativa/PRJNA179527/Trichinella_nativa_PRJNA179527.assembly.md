@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Trichinella_nativa/PRJNA179527/Trichinella_nativa_PRJNA179527.assembly.html on Thu Jun 11 13:46:13 2020)
+The genome assembly was produced by the [Mitreva laboratory at the Genome Institute of Washington University](http://genome.wustl.edu/people/groups/detail/mitreva-lab/), and submitted in late 2013 as part of the 50 Helminth Genomes project.

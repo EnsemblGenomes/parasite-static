@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Onchocerca_ochengi/Onchocerca_ochengi.about.html on Thu Jun 11 13:45:02 2020)
+The nematode _Onchocerca ochengi_ is a filarial parasite of cattle, and is native to West Africa, including Cameroon. _O. ochengi_ is very closely related to the human-parasitic _Onchocerca volvulus_, the tractability of the bovine host makes the _O. ochengi_-cattle model a useful one in vaccine and drug development work for _Onchocerca_.

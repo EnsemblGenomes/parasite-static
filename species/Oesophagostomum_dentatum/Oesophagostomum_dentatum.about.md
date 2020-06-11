@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Oesophagostomum_dentatum/Oesophagostomum_dentatum.about.html on Thu Jun 11 13:44:57 2020)
+The nematode _Oesophagostomum dentatum_, or nodule worm, is a common parasite of domestic and feral pigs worldwide. Swine (_Sus scrofa_) is the only host and harbors hundreds and even thousands of pre-adult and adult stage worms in the large intestines, especially the caecum, for a long time period without clinical signs except reduced food conversion.

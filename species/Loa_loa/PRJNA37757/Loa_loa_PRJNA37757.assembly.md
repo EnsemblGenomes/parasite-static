@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Loa_loa/PRJNA37757/Loa_loa_PRJNA37757.assembly.html on Thu Jun 11 13:44:35 2020)
+The _L. loa_ genome was sequenced by the [Filarial Worms sequencing project at BROAD institute](http://www.broadinstitute.org/annotation/genome/filarial_worms/MultiHome.html), as described by [Desjardins et al (2013)](http://europepmc.org/abstract/MED/23525074).

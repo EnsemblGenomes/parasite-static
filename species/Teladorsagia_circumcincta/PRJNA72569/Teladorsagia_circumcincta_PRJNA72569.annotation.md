@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Teladorsagia_circumcincta/PRJNA72569/Teladorsagia_circumcincta_PRJNA72569.annotation.html on Thu Jun 11 13:46:06 2020)
+The gene predictions were made by the [Mitreva laboratory at the Genome Institute of Washington University](http://genome.wustl.edu/people/groups/detail/mitreva-lab/), and submitted in late 2013 as part of the 50 Helminth Genomes project.

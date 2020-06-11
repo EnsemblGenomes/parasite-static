@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Parascaris_equorum/Parascaris_equorum.about.html on Thu Jun 11 13:45:14 2020)
+The nematode _Parascaris equorum_, or equine roundworm, is a parasite that primarily affects young horses, usually under two years of age, as their immune response is not as developed as older horses. Can cause weight loss, ill thrift and respiratory symptoms to intussusception, intestinal impaction and death.

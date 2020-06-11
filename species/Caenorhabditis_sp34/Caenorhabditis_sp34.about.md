@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Caenorhabditis_sp34/Caenorhabditis_sp34.about.html on Thu Jun 11 13:43:44 2020)
+_Caenorhabditis inopinata_ (_sp. 34_) is a free-living, transparent nematode, isolated from fresh syconia of the fig Ficus septica in Ishigaki island, Japan. It is among the closest known relatives of C. elegans, while also displaying a number of characteristic differences related to the timing of developmental milestones and body size. This has created interest in the species as a system of study of evolutionary diversification.

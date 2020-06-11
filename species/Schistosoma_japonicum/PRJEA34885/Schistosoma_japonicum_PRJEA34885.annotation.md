@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Schistosoma_japonicum/PRJEA34885/Schistosoma_japonicum_PRJEA34885.annotation.html on Thu Jun 11 13:45:38 2020)
+The original gene predictions were made by the [Chinese National Human Genome Center](http://chgc.sh.cn/en/), and published in [2009](http://europepmc.org/abstract/MED/19606140). The gene models have subsequently been improved, and the version represented here is the December 2013 snapshot from [GeneDB](http://www.genedb.org/Homepage/Sjaponicum).

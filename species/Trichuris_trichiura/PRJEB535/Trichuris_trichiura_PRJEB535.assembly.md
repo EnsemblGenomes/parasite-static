@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Trichuris_trichiura/PRJEB535/Trichuris_trichiura_PRJEB535.assembly.html on Thu Jun 11 13:46:30 2020)
+The _T. trichiura_ genome has been sequenced by the Parasite Genomics group at the Wellcome Trust Sanger Institute, in collaboration with Richard Grencis (University of Manchester), as described by [Foth et al (2014)](http://europepmc.org/abstract/MED/24929830). The assembly version represented here is INSDC assembly [TTRE2.1](http://www.ncbi.nlm.nih.gov/assembly/GCA_000613005.1/).

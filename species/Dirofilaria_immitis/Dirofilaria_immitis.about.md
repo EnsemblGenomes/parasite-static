@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Dirofilaria_immitis/Dirofilaria_immitis.about.html on Thu Jun 11 13:43:57 2020)
+The nematode _Dirofilaria immitis_, or dog heartworm, is an important parasite of dogs and cats that is often fatal if left untreated. Transmitted by mosquitoes in warmer climatic zones, it is spreading across southern Europe and the Americas at an alarming pace.

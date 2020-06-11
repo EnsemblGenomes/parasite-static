@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Steinernema_scapterisci/PRJNA204942/Steinernema_scapterisci_PRJNA204942.annotation.html on Thu Jun 11 13:45:53 2020)
+The gene predictions were made by the [Mortazavi laboratory](http://devcell.bio.uci.edu/faculty/ali-mortazavi) at the University of California Irvine, as described by [Dillman _et al._ (2015)](http://europepmc.org/abstract/MED/26392177).

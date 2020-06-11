@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Teladorsagia_circumcincta/Teladorsagia_circumcincta.about.html on Thu Jun 11 13:46:06 2020)
+The nematode _Teladorsagia circumcinta_ (also known as _Ostertagia circumcincta_), or brown stomach worm, is economically the most important parasite of sheep throughout temperate regions of the world and has developed multiple resistances to drugs. Globally, these parasites lead to millions of dollars in economic losses due to low production of meat, wool and milk and the high costs of treatment.

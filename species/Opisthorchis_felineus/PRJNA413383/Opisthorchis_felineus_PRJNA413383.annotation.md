@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Opisthorchis_felineus/PRJNA413383/Opisthorchis_felineus_PRJNA413383.annotation.html on Thu Jun 11 13:45:07 2020)
+The annotation was produced using [EVidence Modeller](https://evidencemodeler.github.io/) by incorporating evidence from open reading frames, RNASeq reads, and protein alignments from species related to _O. felineus_, as described in [Ershov et al. (2019)](https://www.ncbi.nlm.nih.gov/pubmed/31117933).
