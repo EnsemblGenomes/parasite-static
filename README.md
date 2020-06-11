@@ -6,22 +6,22 @@ Keeping static contents for ParaSite website
 
 ## Structure
 
-1. species
-1.1 Ancylostoma ceylanicum
-1.1.1 Ancylostoma ceylanicum.about.md
-1.1.3 PRJNA231479
-1.1.3.1 Ancylostoma_ceylanicum_PRJNA231479.summary.md
-1.1.3.2 Ancylostoma_ceylanicum_PRJNA231479.assembly.md
-1.3.3 Ancylostoma_ceylanicum_PRJNA231479.annotation.md
-1.1.3.4 Ancylostoma_ceylanicum_PRJNA231479.resources.md
-1.1.3.5 Ancylostoma_ceylanicum_PRJNA231479.publication.md
-1.1.4 PRJNA72583
-1.1.4.1 Ancylostoma_ceylanicum_PRJNA72583.summary.md
-1.1.4.1 Ancylostoma_ceylanicum_PRJNA72583.assembly.md
-1.1.4.1 Ancylostoma_ceylanicum_PRJNA72583.annotation.md
-1.1.4.1 Ancylostoma_ceylanicum_PRJNA72583.resources.md
-1.1.4.1 Ancylostoma_ceylanicum_PRJNA72583.publication.md
-1.2 ...etc
+- species
+  - Ancylostoma ceylanicum
+    - Ancylostoma ceylanicum.about.md
+    - PRJNA231479
+      - Ancylostoma_ceylanicum_PRJNA231479.summary.md
+      - Ancylostoma_ceylanicum_PRJNA231479.assembly.md
+      - Ancylostoma_ceylanicum_PRJNA231479.annotation.md
+      - Ancylostoma_ceylanicum_PRJNA231479.resources.md
+      - Ancylostoma_ceylanicum_PRJNA231479.publication.md
+    - PRJNA72583
+      - Ancylostoma_ceylanicum_PRJNA72583.summary.md
+      - Ancylostoma_ceylanicum_PRJNA72583.assembly.md
+      - Ancylostoma_ceylanicum_PRJNA72583.annotation.md
+      - Ancylostoma_ceylanicum_PRJNA72583.resources.md
+      - Ancylostoma_ceylanicum_PRJNA72583.publication.md
+  - ...etc
 
 
 
