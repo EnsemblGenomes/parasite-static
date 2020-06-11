@@ -43,27 +43,40 @@ BEGIN{
    }
 }
 
-use constant CORE_DB_REGEX       => qr/^([a-z]+_[a-z0-9]+)_([a-z0-9]+)_core_$ENV{PARASITE_VERSION}_$ENV{ENSEMBL_VERSION}_[0-9]+$/;
-use constant WBPS_BASE_URL       => 'https://parasite.wormbase.org/';
-use constant ROOT_DIR            => './species';
-use constant SPECIES_MD_FILES    => ['.about.md'];
-use constant BIOPROJECT_MD_FILES => ['.summary.md', '.assembly.md', '.annotation.md', '.resources.md', '.publication.md'];
-use constant PLACEHOLDER_SUFFIX  => '.placeholder';
+# used to figure out which databases on staging server are core DBs
+use constant CORE_DB_REGEX             => qr/^([a-z]+_[a-z0-9]+)_([a-z0-9]+)_core_$ENV{PARASITE_VERSION}_$ENV{ENSEMBL_VERSION}_[0-9]+$/;
+# looks here to see if a genome has been published
+use constant WBPS_BASE_URL             => 'https://parasite.wormbase.org/';
+# files are created under this path
+use constant ROOT_DIR                  => './species';
+# database holding static content created by deprecated process
+use constant STATIC_CONTENT_DB         => 'ensembl_production_parasite';
+# suffix for placeholder files, allowing them to be differentiated on disc from "real" markdown files
+use constant PLACEHOLDER_SUFFIX        => '.placeholder';
+# file describing species has this name, prefixed with name of species, suffixes with '.md' or '.html'
+use constant SPECIES_FILE              => 'about';
+# database table and field with species static content
+use constant SPECIES_STATIC_FIELD      => 'description';
+use constant SPECIES_STATIC_TABLE      => 'static_species';
+# database table and field with bioproject static content
+# (bioproject file names and field names are the same so there's no separate constant for files)
+use constant BIOPROJECT_STATIC_FIELDS  => [qw(summary assembly annotation resources publication)];
+use constant BIOPROJECT_STATIC_TABLE   => 'static_genome';
 
 
 my $root_dir = ROOT_DIR;
 my ($find_missing,$create_missing,$placeholders,$help);
-GetOptions ("root_dir=s"      => \$root_dir,
-            "find_missing"    => \$find_missing,
-            "create_missing"  => \$create_missing,
+GetOptions ("root-dir=s"      => \$root_dir,
+            "find-missing"    => \$find_missing,
+            "create-missing"  => \$create_missing,
             "placeholders"    => \$placeholders,
             "help"            => \$help,
             )
             || die "failed to parse command line arguments";
 $help && die   "Usage:    $0 [options]\n\n"
-            .  "Options:  --root_dir         root of new species/bioproject directory structure; default \"".ROOT_DIR."\"\n"
-            .  "          --find_missing     find missing markdown files for published genomes\n"
-            .  "          --create_missing   create missing markdown files for published genomes from deprecated database\n"
+            .  "Options:  --root-dir         root of new species/bioproject directory structure; default \"".ROOT_DIR."\"\n"
+            .  "          --find-missing     find missing markdown files for published genomes\n"
+            .  "          --create-missing   create missing markdown files for published genomes from deprecated database\n"
             .  "          --placeholders     create placeholder markdown files for unpublished genomes\n"
             .  "          --help             this message\n"
             ;
@@ -103,22 +116,24 @@ CORE: foreach my $this_core_db ( ProductionMysql->staging->core_databases() ) {
       if($find_missing) {
          # print list of markdown files that are missing
          unless($species_count{$species}) {
-            map {say} @{find_missing_md($species_dir,$species_base_name,SPECIES_MD_FILES)};
+            map {say} @{find_missing_md($species_dir,$species_base_name,['.'.SPECIES_FILE.'.md'])};
          }
-         map {say} @{find_missing_md($bioproject_dir,$bioproject_base_name,BIOPROJECT_MD_FILES)};
+         map {say} @{find_missing_md($bioproject_dir,$bioproject_base_name,[map {'.'.$_.'.md'} @{+BIOPROJECT_STATIC_FIELDS}])};
       }
       if($create_missing) {
          # create HTML files that are missing or empty
-         my %html_files = (   species     => join('/', $species_dir,     "${species_base_name}.about.html"),
-                              summary     => join('/', $bioproject_dir,  "${bioproject_base_name}.summary.html"),
-                              assembly    => join('/', $bioproject_dir,  "${bioproject_base_name}.assembly.html"),
-                              annotation  => join('/', $bioproject_dir,  "${bioproject_base_name}.annotation.html"),
-                              publication => join('/', $bioproject_dir,  "${bioproject_base_name}.publication.html"),
-                              resources   => join('/', $bioproject_dir,  "${bioproject_base_name}.resources.html"),
-                              );
+         
+         # this hash stores the files to be created
+         # 'species' in awkward as the db field name and the file name don't match...
+         my %html_files = ( species => join('/', $species_dir, "${species_base_name}.".SPECIES_FILE.".html") );
+         # ...but all other cases are files for the bioproject, where field names match file names
+         foreach my $field ( @{+BIOPROJECT_STATIC_FIELDS} ) {
+            $html_files{$field} = join('/', $bioproject_dir,  "${bioproject_base_name}.${field}.html"),
+         }
+         
          # get static content for species
          # if this returns nothing, the database doesn't include this species so we won't proceed further
-         if(my $species_static_content = get_static_content(static_species => $species_base_name, 'description')) {
+         if(my $species_static_content = get_static_content(SPECIES_STATIC_TABLE, $species_base_name, SPECIES_STATIC_FIELD)) {
             foreach my $field (keys %html_files) {
                # create HTML file unless a non-empty one exists
                unless(-s $html_files{$field}) {
@@ -127,7 +142,7 @@ CORE: foreach my $this_core_db ( ProductionMysql->staging->core_databases() ) {
                      # already got this
                      $static_content =$species_static_content;
                   } else {
-                     $static_content = get_static_content(static_genome => $bioproject_base_name, $field) || '';
+                     $static_content = get_static_content(BIOPROJECT_STATIC_TABLE, $bioproject_base_name, $field) || '';
                   }
                   if($static_content) {
                      File::Slurp::overwrite_file($html_files{$field}, {binmode => ':utf8'}, $static_content."\n") || die "failed to write ".$html_files{$field}.": $!";
@@ -142,6 +157,7 @@ CORE: foreach my $this_core_db ( ProductionMysql->staging->core_databases() ) {
                }
             } # foreach my $field
          } # if(my $species_static_content
+         
       } # if($create_missing)
    } catch {
       my $msg = $_;
@@ -152,9 +168,9 @@ CORE: foreach my $this_core_db ( ProductionMysql->staging->core_databases() ) {
       # say "Not yet published: ${species}_${bioproject}".($placeholders?' (creating placeholders)':'');
       if($placeholders) {
          unless($species_count{$species}) {
-            map {say} @{create_placeholders($species_dir,$species,SPECIES_MD_FILES)};
+            map {say} @{create_placeholders($species_dir,$species,['.'.SPECIES_FILE.'.md'])};
          }
-         map {say} @{create_placeholders($bioproject_dir,$bioproject_base_name,BIOPROJECT_MD_FILES)};
+         map {say} @{create_placeholders($bioproject_dir,$bioproject_base_name,[map {'.'.$_.'.md'} @{+BIOPROJECT_STATIC_FIELDS}])};
       }
    };
    
@@ -176,6 +192,7 @@ sub create_subdir
          -d $this_dir || die "$this_dir exists, but isn't a directory";
       } else {
          mkdir($this_dir) || die "Couldn't create directory $this_dir: $!";
+         # creating this file just allows the directory structure to be pushed to git, even if a diretcory is empty
          touch(join('/',$this_dir,'.created'));
       }
    }
@@ -247,7 +264,7 @@ sub list_md_files
    return( \@files );
 }
 
-# gets the static content from ensembl_production_parasite database
+# gets the static content from the database
 # (deprecated: the content here is no longer being maintained)
 # pass the table, name and field required
 # returns description as string
@@ -260,7 +277,7 @@ sub get_static_content
 
    my @field_content = ();
    try {
-      my $db_cmd = qq(mysql-pan-prod -Ne 'SELECT $field FROM ensembl_production_parasite.$table where species_name="$name"');
+      my $db_cmd = qq(mysql-pan-prod -Ne 'SELECT $field FROM ).STATIC_CONTENT_DB.qq(.$table where species_name="$name"');
       open(DB, " { $db_cmd 2>&1 1>&3 | grep -v \"can be insecure\" 1>&2; } 3>&1 |");
       while(my $rec = <DB>) {
          chomp $rec;
