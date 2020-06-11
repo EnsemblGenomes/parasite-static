@@ -130,7 +130,7 @@ CORE: foreach my $this_core_db ( ProductionMysql->staging->core_databases() ) {
                      $static_content = get_static_content(static_genome => $bioproject_base_name, $field) || '';
                   }
                   if($static_content) {
-                     File::Slurp::overwrite_file($html_files{$field}, {binmode => ':utf8'}, $static_content) || die "failed to write ".$html_files{$field}.": $!";
+                     File::Slurp::overwrite_file($html_files{$field}, {binmode => ':utf8'}, $static_content."\n") || die "failed to write ".$html_files{$field}.": $!";
                      say $html_files{$field};
                   }
                }
@@ -276,11 +276,11 @@ sub get_static_content
    return( ($field_content[0] && 'NULL' ne $field_content[0]) ? $field_content[0] : undef );
 }
 
-# creates markdown file from HTML
-# this isn't a good way to do it, buit it will populate files if we don't yet
-# have markdown but HTML has previously been added to the database
+# creates markdown file from HTML unless a markdown file already exists
+# this is NOT a good way to do it, buit it will populate files if we don't yet have markdown
+# but HTML has previously been added to the database
 # pass HTML file name, which must exist
-# returns undef is markdown file existed already; otherwise name of newly created markdown file name
+# returns undef is markdown file existed already, otherwise name of newly created markdown file name
 sub markdown_from_html
 {  my $this = (caller(0))[3];
    my($html_file) = @_;
@@ -292,10 +292,168 @@ sub markdown_from_html
    return(undef) if -s $md_file;
    
    my $html = File::Slurp::read_file($html_file);
-# TO DO: transform into MD!
-my $markdown = $html;
-   File::Slurp::overwrite_file($md_file, {binmode => ':utf8'}, $markdown) || die "failed to write $md_file: $!";
+   return(undef) unless $html =~ m/\S/;
+   
+   my $markdown = "[//]: # (Created by $0 from $html_file on ".scalar(localtime(time())).")\n";
+   
+   my $parser;
+   try {
+      # HTML::Parser needs the HTML to end with a newline or it fails to trigger the handler for the last token :-/
+      $parser = new HTMLStaticContentParser->parse($html."\n") || die "HTML parsing error: $!";
+   } catch {
+      my $msg = $_;
+      die "Failed to parse $html_file: $msg";
+   };
+   $markdown .= $parser->markdown() // '';
+   
+   File::Slurp::overwrite_file($md_file, {binmode => ':utf8'}, $markdown."\n") || die "failed to write $md_file: $!";
    
    return($md_file);
 }
+
+
+###   HTMLStaticContentParser   ###################################################################################################
+# 
+#       Subclasses HTML::Parser to parse HTML static content, and convert it to Markdown.
+# 
+#       Only intended to cope with the subset of HTML actually used in the static content found in the
+#       static_species and static_genome tables of ensembl_production_parasite!
+#       
+
+package HTMLStaticContentParser;
+
+use Carp;
+use HTML::Parser;
+use HTML::Entities;
+use base qw(HTML::Parser);
+
+# Accessor for Markdown.
+# Optionally, a pair arguments can be passed (passing just one arg is an error); first arg must be 'set'
+# or 'append', and second argument is a string:  'set' causes the stored markdown to be set to the string
+# (replacing existing Markdown), and 'append' causes the string to be appended to the existing markdown.
+# Return value is the markdown (after any set/append operation)
+sub markdown
+{  my($self,$action,$md) = @_;
+   my $this = (caller(0))[3];
+   if($action) {
+      confess "when an action param is passed to $this it must be 'set' or 'append'" unless grep {$_ eq $action} qw(set append);
+      confess "when an action param is passed to $this, a value must also be passed" unless defined $md;
+      if( 'set' eq $action ) {
+         $self->{__MARKDOWN__} = $md;
+      } elsif( 'append' eq $action ) {
+         $self->{__MARKDOWN__} .= $md;
+      }
+   }
+   return($self->{__MARKDOWN__});
+}
+
+# Accessor for flag that indicates a link ('a' element with 'href' attribute) is currently being read
+# If a value is passed, it is set.
+# Returns the value (after any setting, when applicable)
+sub currently_reading_link
+{  my($self,$bool) = @_;
+   my $this = (caller(0))[3];
+   $self->{__CURRENTLY_READING_LINK__} = ($bool ? 1 : 0) if defined $bool;
+   return($self->{__CURRENTLY_READING_LINK__});
+}
+
+# Accessor for flag that indicates a list is currently being read
+# If a value is passed, it is set.
+# Returns the value (after any setting, when applicable)
+sub currently_reading_list
+{  my($self,$bool) = @_;
+   my $this = (caller(0))[3];
+   $self->{__CURRENTLY_READING_LIST__} = ($bool ? 1 : 0) if defined $bool;
+   return($self->{__CURRENTLY_READING_LIST__});
+}
+
+# Accessor for most recently read value of a 'href' attribute of an 'a' element
+# If a value is passed, it is set.
+# Returns the value (after any setting, when applicable)
+sub latest_uri
+{  my($self,$uri) = @_;
+   my $this = (caller(0))[3];
+   $self->{__LATEST_URI__} = $uri if defined $uri;
+   return($self->{__LATEST_URI__});
+}
+
+# deals with opening tags
+sub start
+{  my ($self, $tagname, $attr, $attrseq, $text) = @_;
+
+   # start of text to be rendered in italics
+   if('em' eq $tagname || 'i' eq $tagname) {
+      $self->markdown(append => '_');
+   }
+   # start of text to be rendered bold
+   elsif('b' eq $tagname || 'strong' eq $tagname) {
+      $self->markdown(append => '**');
+   }
+   # linebreak
+   elsif('br' eq $tagname) {
+      # not allows within a list item in markdown
+      $self->markdown(append => "\n\n") unless $self->currently_reading_list();
+   }
+   # start list
+   elsif('ul' eq $tagname) {
+      $self->currently_reading_list(1);
+      $self->markdown(append => "\n\n");
+   }
+   # start list item
+   elsif('li' eq $tagname) {
+      $self->markdown(append => '* ');
+   }
+   # opening tag of a link
+   elsif('a' eq $tagname && $attr && $attr->{href}) {
+      $self->latest_uri($attr->{href});
+      $self->currently_reading_link(1);
+      $self->markdown(append => '[');
+   }
+   else {
+      die "don't know how to deal with $tagname tags";
+   }
+}
+
+# deals with closing tags
+sub end
+{  my ($self, $tagname, $text) = @_;
+   
+   # end of text to be rendered in italics
+   if('em' eq $tagname || 'i' eq $tagname) {
+      $self->markdown(append => '_');
+   }
+   # end of text to be rendered bold
+   elsif('b' eq $tagname || 'strong' eq $tagname) {
+      $self->markdown(append => '**');
+   }
+   # end of list
+   elsif('ul' eq $tagname) {
+      $self->currently_reading_list(0);
+      $self->markdown(append => "\n");
+   }
+   # end of list item
+   elsif('li' eq $tagname) {
+      $self->markdown(append => "\n");
+   }
+   # closing tag of a link
+   elsif('a' eq $tagname && $self->currently_reading_link()) {
+      $self->markdown(append => ']('.$self->latest_uri().')');
+      $self->latest_uri('');
+      $self->currently_reading_link(0);
+   }
+   else {
+      die "don't know how to deal with $tagname tags";
+   }
+}
+
+# deals with text content
+sub text
+{  my ($self, $origtext) = @_;
+
+   $self->markdown(append => decode_entities($origtext));
+}
+
+1;
+
+###   end of HTMLStaticContentParser   ############################################################################################
 
