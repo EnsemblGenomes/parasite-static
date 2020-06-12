@@ -65,19 +65,21 @@ use constant BIOPROJECT_STATIC_TABLE   => 'static_genome';
 
 
 my $root_dir = ROOT_DIR;
-my ($find_missing,$create_missing,$placeholders,$help);
+my ($find_missing,$create_missing,$placeholders,$md_to_html,$help);
 GetOptions ("root-dir=s"      => \$root_dir,
             "find-missing"    => \$find_missing,
             "create-missing"  => \$create_missing,
             "placeholders"    => \$placeholders,
+            "md2html"         => \$md_to_html,
             "help"            => \$help,
             )
             || die "failed to parse command line arguments";
 $help && die   "Usage:    $0 [options]\n\n"
             .  "Options:  --root-dir         root of new species/bioproject directory structure; default \"".ROOT_DIR."\"\n"
             .  "          --find-missing     find missing markdown files for published genomes\n"
-            .  "          --create-missing   create missing markdown files for published genomes from deprecated database\n"
+            .  "          --create-missing   create missing HTML and markdown files for published genomes from deprecated database\n"
             .  "          --placeholders     create placeholder markdown files for unpublished genomes\n"
+            .  "          --md2html          create missing HTML files from markdown files\n"
             .  "          --help             this message\n"
             ;
 
@@ -113,6 +115,7 @@ CORE: foreach my $this_core_db ( ProductionMysql->staging->core_databases() ) {
    # path on WBPS web site is like "Acanthocheilonema_viteae_prjeb1697" (note capitalized genus)
    try {
       $wwwmech->get( WBPS_BASE_URL.$species.'_'.$bioproject );
+      
       if($find_missing) {
          # print list of markdown files that are missing
          unless($species_count{$species}) {
@@ -120,6 +123,7 @@ CORE: foreach my $this_core_db ( ProductionMysql->staging->core_databases() ) {
          }
          map {say} @{find_missing_md($bioproject_dir,$bioproject_base_name,[map {'.'.$_.'.md'} @{+BIOPROJECT_STATIC_FIELDS}])};
       }
+      
       if($create_missing) {
          # create HTML files that are missing or empty
          
@@ -159,6 +163,28 @@ CORE: foreach my $this_core_db ( ProductionMysql->staging->core_databases() ) {
          } # if(my $species_static_content
          
       } # if($create_missing)
+      
+      if($md_to_html) {
+         # create missing HTML files from markdown files
+         my @md_files = ();
+         unless($species_count{$species}) {
+            push( @md_files,
+                  join('/',$species_dir,$species_base_name.'.'.SPECIES_FILE.'.md')
+                  );
+         }
+         push( @md_files,
+               map   {  join( '/',
+                              $bioproject_dir,
+                              $bioproject_base_name.'.'.$_.'.md'
+                              )
+                        }
+                     @{+BIOPROJECT_STATIC_FIELDS}
+               );
+         # call html_from_markdown for each mardown file that exists on disk,
+         # and "say" each file name returned
+         map {$_ && say $_} map {-e $_ && html_from_markdown($_)} @md_files;
+      }
+      
    } catch {
       my $msg = $_;
       # 404 is expected for new genomes; anything else is an error
@@ -293,7 +319,34 @@ sub get_static_content
    return( ($field_content[0] && 'NULL' ne $field_content[0]) ? $field_content[0] : undef );
 }
 
-# creates markdown file from HTML unless a markdown file already exists
+
+# creates HTML file from markdown unless an HTML file already exists and has non-zero size
+# pass markdown file name, which must exist
+# returns undef is HTML file existed already, otherwise name of newly created HTML file name
+sub html_from_markdown
+{  my $this = (caller(0))[3];
+   my($md_file) = @_;
+   die "$this requires name of existing markdown file" unless $md_file && -e $md_file;
+   
+   my $html_file = $md_file;
+   $html_file =~ s/\.md$/\.html/ || die "failed to create HTML file name corresponding to $md_file";
+
+   return(undef) if -s $html_file;
+   
+   my $markdown = File::Slurp::read_file($md_file);
+   return(undef) unless $markdown =~ m/\S/;
+
+   my $html =  "<!-- Created by $0 from $md_file on ".scalar(localtime(time()))." -->\n\n"
+            .  Text::Markdown::markdown( $markdown );
+   
+   File::Slurp::overwrite_file($html_file, {binmode => ':utf8'}, $html."\n") || die "failed to write $html_file: $!";
+   
+   return($html_file);
+}
+
+
+
+# creates markdown file from HTML unless a markdown file already exists and has non-zero size
 # this is NOT a good way to do it, buit it will populate files if we don't yet have markdown
 # but HTML has previously been added to the database
 # pass HTML file name, which must exist
@@ -331,7 +384,7 @@ sub markdown_from_html
 
 ###   HTMLStaticContentParser   ###################################################################################################
 # 
-#       Subclasses HTML::Parser to parse HTML static content, and convert it to Markdown.
+#       Subclasses HTML::Parser to parse HTML static content, and convert it to markdown.
 # 
 #       Only intended to cope with the subset of HTML actually used in the static content found in the
 #       static_species and static_genome tables of ensembl_production_parasite!
@@ -344,10 +397,10 @@ use HTML::Parser;
 use HTML::Entities;
 use base qw(HTML::Parser);
 
-# Accessor for Markdown.
+# Accessor for markdown.
 # Optionally, a pair arguments can be passed (passing just one arg is an error); first arg must be 'set'
 # or 'append', and second argument is a string:  'set' causes the stored markdown to be set to the string
-# (replacing existing Markdown), and 'append' causes the string to be appended to the existing markdown.
+# (replacing existing markdown), and 'append' causes the string to be appended to the existing markdown.
 # Return value is the markdown (after any set/append operation)
 sub markdown
 {  my($self,$action,$md) = @_;
