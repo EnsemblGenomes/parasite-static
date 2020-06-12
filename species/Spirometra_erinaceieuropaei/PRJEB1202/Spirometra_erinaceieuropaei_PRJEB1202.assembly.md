@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Spirometra_erinaceieuropaei/PRJEB1202/Spirometra_erinaceieuropaei_PRJEB1202.assembly.html on Thu Jun 11 13:45:48 2020)
+The draft genome assembly was produced by the [Parasite Genomic group at the Wellcome Trust Sanger Institute](http://www.sanger.ac.uk/research/projects/parasitegenomics/), in collaboration with clinicians, as described by [Bennett _et al_ (2014)](http://europepmc.org/abstract/MED/25413302).

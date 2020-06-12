@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Ascaris_suum/PRJNA80881/Ascaris_suum_PRJNA80881.assembly.html on Thu Jun 11 13:43:25 2020)
+The _A. suum_ genome was sequenced by the [Gasser laboratory at the University of Melbourne](http://www.gasserlab.org/), as described by [Jex et al (2011)](http://europepmc.org/abstract/MED/22031327). The version of the genome represented here is that submitted directly to WormBase in 2011, which is similar to, but not exactly the same as, NCBI assembly [GCA_000298755.1](http://www.ncbi.nlm.nih.gov/assembly/GCA_000298755.1).

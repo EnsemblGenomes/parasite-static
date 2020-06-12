@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Angiostrongylus_costaricensis/Angiostrongylus_costaricensis.about.html on Thu Jun 11 13:43:19 2020)
+The nematode _Angiostrongylus costaricensis_ is the causal agent of abdominal, or intestinal, angiostrongyliasis. Humans are incidental hosts that become infected through ingestion of raw or undercooked infected rats (definitive host) snails, slugs, crabs, freshwater shrimps, or vegetables contaminated by slime from or parts of infected snails and slugs.

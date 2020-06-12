@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Haemonchus_placei/Haemonchus_placei.about.html on Thu Jun 11 13:44:18 2020)
+The nematode _Haemonchus placei_, or large stomach worm, twisted wire worm, is primarily a parasite of ruminants in tropical regions. The disease haemonchosis is characterised by anemia, edema, and weight loss and very heavy infections often cause death in young and well-fed animals.

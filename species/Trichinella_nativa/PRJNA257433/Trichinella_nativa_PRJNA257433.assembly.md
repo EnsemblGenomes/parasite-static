@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Trichinella_nativa/PRJNA257433/Trichinella_nativa_PRJNA257433.assembly.html on Thu Jun 11 13:46:14 2020)
+The genome of _T. nativa_ was produced by the [Gasser laboratory at the University of Melbourne](http://www.gasserlab.org/), as part of the assembly and analysis of all 12 recognized _Trichinella_ species (described in [Korhonen et al (2016)](http://europepmc.org/abstract/MED/26830005)).

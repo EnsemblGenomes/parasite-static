@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Heterorhabditis_bacteriophora/PRJNA13977/Heterorhabditis_bacteriophora_PRJNA13977.annotation.html on Thu Jun 11 13:44:29 2020)
+The gene predictions were made by [Ohio State University](http://www.osu.edu/), as described by [Bai et al (2013)](http://europepmc.org/abstract/MED/23874975). The version represented here is that submitted directly to WormBase in 2013.

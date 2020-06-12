@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Caenorhabditis_sp34/PRJDB5687/Caenorhabditis_sp34_PRJDB5687.annotation.html on Thu Jun 11 13:43:45 2020)
+Gene structures in the Augustus predictions were refined by manual curation in Artemis, using RNA-seq mapping results and BLAST results against C. elegans proteins. The result was then submitted to WormBase by Taisei Kikuchi in June 2018.

@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Oscheius_tipulae/PRJEB15512/Oscheius_tipulae_PRJEB15512.assembly.html on Thu Jun 11 13:45:10 2020)
+The genome of O. tipulae was assembled by Georgios Koutsovolous and Fabrice Besnard  from the Blaxter Lab in University of Edinburgh, using a combination of short-read and mate-pair data, as described in [Besnard et al. (2017)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5560785/).

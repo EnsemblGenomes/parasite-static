@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Strongylus_vulgaris/Strongylus_vulgaris.about.html on Thu Jun 11 13:45:58 2020)
+The nematode _Strongylus vulgaris_, or equine bloodworm, is a parasite that primarily affects horses and donkeys. It has worldwide distribution, wherever there are grassland and temperate environment and causes verminous arteritis and was a very common cause of colic in horses.

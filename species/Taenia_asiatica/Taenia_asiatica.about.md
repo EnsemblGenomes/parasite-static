@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Taenia_asiatica/Taenia_asiatica.about.html on Thu Jun 11 13:46:01 2020)
+The cestode _Taenia asiatica_, also known as Asian taenia or Asian tapeworm, is a parasite of humans and pigs that is thought to be restricted to Asia. Humans contract infection by eating eating raw or undercooked meat and this causes intestinal taeniasis which is usually asymptomatic.

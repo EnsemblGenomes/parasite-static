@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Clonorchis_sinensis/PRJNA386618/Clonorchis_sinensis_PRJNA386618.annotation.html on Thu Jun 11 13:43:49 2020)
+The annotation produced using MAKER2 using as evidence de novo gene predictions with AUGUSTUS, mapped RNASeq reads of both the Korean and Chinese _C. sinensis_ isolate, and gene models from published genomes of other parasitic flatworms: _F. hepatica_, _O. viverrini_ and _ S. mansoni _.

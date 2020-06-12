@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Ancylostoma_duodenale/PRJNA72581/Ancylostoma_duodenale_PRJNA72581.annotation.html on Thu Jun 11 13:43:17 2020)
+The gene predictions were made by the [Mitreva laboratory at the Genome Institute of Washington University](http://genome.wustl.edu/people/groups/detail/mitreva-lab/), and submitted in late 2013 as part of the 50 Helminth Genomes project.

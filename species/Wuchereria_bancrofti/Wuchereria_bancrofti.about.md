@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Wuchereria_bancrofti/Wuchereria_bancrofti.about.html on Thu Jun 11 13:46:31 2020)
+The nematode _Wuchereria bancrofti_ is a human parasite that is the major cause of lymphatic filariasis. It is the most prevalent human infective filarial worm, affecting over 120 million people, primarily in Central Africa and the Nile delta, South and Central America, and the tropical regions of Asia. If the infection is left untreated, it can develop into elephantiasis.

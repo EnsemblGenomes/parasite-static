@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Meloidogyne_floridensis/PRJEB6016/Meloidogyne_floridensis_PRJEB6016.annotation.html on Thu Jun 11 13:44:42 2020)
+The gene predictions were made by the [Blaxter laboratory at University of Edinburgh](http://www.nematodes.org/). The version represented here is nMf.1.0.1 from [nematodes.org](http://nematodes.org/genomes/meloidogyne_floridensis/index.html).

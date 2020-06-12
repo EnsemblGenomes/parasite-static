@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Toxocara_canis/PRJNA248777/Toxocara_canis_PRJNA248777.assembly.html on Thu Jun 11 13:46:10 2020)
+The genome of _T. canis_ was sequenced by the [Gasser laboratory at the University of Melbourne](http://www.gasserlab.org/), as described by [Zhu et al (2015)](http://europepmc.org/abstract/MED/25649139). It was assembled and scaffolded using the program SOAPdenovo2.

@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Globodera_pallida/PRJEB123/Globodera_pallida_PRJEB123.annotation.html on Thu Jun 11 13:44:13 2020)
+The gene predictions were made by the [Parasite Genomics group at the Wellcome Trust Sanger Institute](http://www.sanger.ac.uk/research/projects/parasitegenomics/), as described in [Cotton et al (2014)](http://europepmc.org/abstract/MED/24580726).

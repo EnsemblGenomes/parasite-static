@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Acrobeloides_nanus/PRJEB26554/Acrobeloides_nanus_PRJEB26554.annotation.html on Thu Jun 11 13:43:11 2020)
+The annotation was produced using AUGUSTUS incorporating de novo predictions with _C. elegans_ as species profile and RNASeq data, as described by [ Schiffer et al. (2018)](https://www.ncbi.nlm.nih.gov/pubmed/29626130). It was submitted to WormBase by Philipp Schiffer in August 2018.

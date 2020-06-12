@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Taenia_solium/PRJNA170813/Taenia_solium_PRJNA170813.assembly.html on Thu Jun 11 13:46:05 2020)
+The _T. solium_ genome was sequenced by the [National University of Mexico](http://www.unam.mx/index/en). The initial version of the genome was described in [Tsai et al (2013)](http://europepmc.org/abstract/MED/23485966). The assembly has subsequently been improved, and the version presented here is the March 2014 snapshot of [GeneDB](http://www.genedb.org/Homepage/Tsolium).

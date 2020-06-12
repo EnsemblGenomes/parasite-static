@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Taenia_solium/PRJNA170813/Taenia_solium_PRJNA170813.annotation.html on Thu Jun 11 13:46:05 2020)
+The original gene predictions were made by the [National University of Mexico](http://www.unam.mx/index/en), as described by [Tsai et al (2013)](http://europepmc.org/abstract/MED/23485966). The gene models have since been iteratively improved. The gene set represented here is the March 2014 snapshot from [GeneDB](http://www.genedb.org/Homepage/Tsolium).

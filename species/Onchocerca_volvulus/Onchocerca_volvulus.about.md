@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Onchocerca_volvulus/Onchocerca_volvulus.about.html on Thu Jun 11 13:45:05 2020)
+The nematode _Onchocerca volvulus_ is a gonochoristic filarial parasite of humans causing Onchocerciasis. Onchocerciasis, or River Blindness, is a neglected tropical disease (NTD) which affects over 37 million people, mainly in Africa. It is a severely debilitating disease, which is transmitted to humans by the bite of Simulium blackflies that live and breed near fast-flowing streams and rivers.

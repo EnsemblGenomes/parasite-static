@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Opisthorchis_viverrini/PRJNA222628/Opisthorchis_viverrini_PRJNA222628.annotation.html on Thu Jun 11 13:45:08 2020)
+The gene predictions were made by the [Gasser laboratory at the University of Melbourne](http://www.gasserlab.org/), as described by [Young et al (2014)](http://europepmc.org/abstract/MED/25007141). The version represented here is consistent with the INSDC records.

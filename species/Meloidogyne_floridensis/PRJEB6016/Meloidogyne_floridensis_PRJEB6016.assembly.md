@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Meloidogyne_floridensis/PRJEB6016/Meloidogyne_floridensis_PRJEB6016.assembly.html on Thu Jun 11 13:44:42 2020)
+The _M. floridensis_ genome was sequenced by the [Blaxter laboratory at University of Edinburgh](http://www.nematodes.org/). The data represented here is version nMf.1.0 from [nematodes.org](http://nematodes.org/genomes/meloidogyne_floridensis/index.html).

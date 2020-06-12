@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Litomosoides_sigmodontis/PRJEB3075/Litomosoides_sigmodontis_PRJEB3075.annotation.html on Thu Jun 11 13:44:34 2020)
+The gene predictions were made by the [Blaxter laboratory at the University of Edinburgh](http://www.nematodes.org/). The version represented here is nLs.2.1.1 from [nematodes.org](http://nematodes.org/genomes/litomosoides_sigmodontis/).

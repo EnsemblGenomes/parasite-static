@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Schistosoma_bovis/PRJNA451066/Schistosoma_bovis_PRJNA451066.annotation.html on Thu Jun 11 13:45:34 2020)
+The annotation was prepared using [MAKER](https://www.yandell-lab.org/software/maker.html) with a _Schistosoma_ specific Augustus model, _S. haematobium_ ESTs, and protein alignments of SwissProt entries from several fluke species and _C. elegans_.

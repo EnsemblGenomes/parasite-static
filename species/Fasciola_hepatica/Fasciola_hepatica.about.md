@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Fasciola_hepatica/Fasciola_hepatica.about.html on Thu Jun 11 13:44:10 2020)
+The trematode _Fasciola hepatica_, or sheep liver fluke or common liver fluke, is a parasite that infects humans, cows and sheep. It causes a disease called fascioliasis, infection arises from ingestion of metacercariae on water plants such as watercress. In the UK, Fasciola is generally common in farmed livestock which graze upon wetland pastures where the parasites intermediate snail host thrives.

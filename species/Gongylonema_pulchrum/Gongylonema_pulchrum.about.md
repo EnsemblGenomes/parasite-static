@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Gongylonema_pulchrum/Gongylonema_pulchrum.about.html on Thu Jun 11 13:44:14 2020)
+The nematode _Gongylonema pulchrum_ is an accidental parasite of humans causing gongylonemiasis. Only around 100 cases in humans have been reported. Transmission to humans is due to consumption of food and water contaminated by coprophagous insects, mostly dung beetles and cockroaches. A large worm that burrows in the mucosal lining of the esophagus and mouth including the tongue, soft palate and lips

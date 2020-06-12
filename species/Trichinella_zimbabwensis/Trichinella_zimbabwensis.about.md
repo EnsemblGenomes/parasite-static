@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Trichinella_zimbabwensis/Trichinella_zimbabwensis.about.html on Thu Jun 11 13:46:24 2020)
+One of the _Trichinella_ genus of parasitic nematodes, which are generally the causative agents of trichinosis (also known as trichinellosis). _Trichinella zimbabwensis_ is found in crocodiles and monitor lizards in Africa but there are no known associations of this species with human disease.

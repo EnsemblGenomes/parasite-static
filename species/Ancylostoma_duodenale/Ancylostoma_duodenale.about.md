@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Ancylostoma_duodenale/Ancylostoma_duodenale.about.html on Thu Jun 11 13:43:16 2020)
+The nematode _Ancylostoma duodenale_, or human hookworm, is a parasite that lives in the human intestine that is particularly harmful to children, causing chronic anaemia, stunted growth and impaired intellectual development. It is difficult to study in a laboratory setting.

@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Trichuris_suis/PRJNA208416/Trichuris_suis_PRJNA208416.assembly.html on Thu Jun 11 13:46:29 2020)
+The genome of a female _T. suis_ isolate (strain DCEP-RM93F) was sequenced by [Gasser laboratory at the University of Melbourne](http://www.gasserlab.org/), as described by [Jex et al (2014)](http://europepmc.org/abstract/MED/24929829). The assembly version represented here was submitted directly to WormBase in early 2014.

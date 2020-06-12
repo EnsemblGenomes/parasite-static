@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Romanomermis_culicivorax/PRJEB1358/Romanomermis_culicivorax_PRJEB1358.annotation.html on Thu Jun 11 13:45:32 2020)
+The gene predictions were made by the University of Cologne, as described by [Schiffer et al (2013)](http://europepmc.org/abstract/MED/24373391). The version represented here is nRc.2.0.1 from [nematodes.org](http://nematodes.org/genomes/romanomermis_culicivorax/index.html).

@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Acanthocheilonema_viteae/Acanthocheilonema_viteae.about.html on Thu Jun 11 13:43:08 2020)
+The nematode _Acanthocheilonema viteae_ is a filarial parasite of rodents. It is widely used as a model for human filariases. Importantly, _A. viteae_ lacks the Wolbachia bacterial endosymbiont found in most human-infective filarial nematodes. Thus this species has become central in efforts to understand the role of the Wolbachia in the nematode-bacterial symbiosis, and in particular its possible role in immune evasion.

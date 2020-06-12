@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Trichuris_muris/Trichuris_muris.about.html on Thu Jun 11 13:46:26 2020)
+The nematode _Trichuris muris_, or murine whipworm, is a gastrointestinal parasite of mice which resides in the caecum and colon and has a direct oral faecal life cycle. It is a remarkably tractable model system for dissecting immune responses and host parasite relationships and is actively being investigated in a number of laboratories worldwide.

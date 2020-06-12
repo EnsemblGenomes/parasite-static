@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Trichinella_papuae/PRJNA257433/Trichinella_papuae_PRJNA257433.assembly.html on Thu Jun 11 13:46:17 2020)
+The genome of _T. papuae_ was produced by the [Gasser laboratory at the University of Melbourne](http://www.gasserlab.org/), as part of the assembly and analysis of all 12 recognized _Trichinella_ species (described in [Korhonen et al (2016)](http://europepmc.org/abstract/MED/26830005)).

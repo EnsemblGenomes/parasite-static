@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Trichinella_spiralis/Trichinella_spiralis.about.html on Thu Jun 11 13:46:20 2020)
+The nematode _Trichinella spiralis_ is a roundworm with an unsegmented body that is a parasite of swine. Trichinosis is a disease of swine that can pass to humans by the eating of undercooked pork, digestive juices from the stomach dissolve the capsule-like cyst and release the parasites. The larvae then penetrate into the intestine where they mature and mate.

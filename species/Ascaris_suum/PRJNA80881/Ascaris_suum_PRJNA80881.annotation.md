@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Ascaris_suum/PRJNA80881/Ascaris_suum_PRJNA80881.annotation.html on Thu Jun 11 13:43:25 2020)
+The gene predictions were made by the [Gasser laboratory at the University of Melbourne](http://www.gasserlab.org/), as described by [Jex et al (2011)](http://europepmc.org/abstract/MED/22031327). The gene set represented here is that submitted directly to WormBase in 2011.

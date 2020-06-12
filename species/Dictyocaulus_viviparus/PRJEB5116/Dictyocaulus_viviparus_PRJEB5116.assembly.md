@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Dictyocaulus_viviparus/PRJEB5116/Dictyocaulus_viviparus_PRJEB5116.assembly.html on Thu Jun 11 13:43:52 2020)
+The _D. vaviparus_ genome assembly was produced by the [Blaxter laboratory at University of Edinburgh](http://www.nematodes.org/). The assembly version represented here is nDv.1.0 from [nematodes.org](http://nematodes.org/genomes/dictyocaulus_viviparus/).

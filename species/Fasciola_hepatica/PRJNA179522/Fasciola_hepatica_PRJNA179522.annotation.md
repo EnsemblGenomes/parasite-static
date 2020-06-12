@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Fasciola_hepatica/PRJNA179522/Fasciola_hepatica_PRJNA179522.annotation.html on Thu Jun 11 13:44:11 2020)
+The gene predictions were made by the [Mitreva laboratory at the Genome Institute of Washington University](http://genome.wustl.edu/people/groups/detail/mitreva-lab/), and submitted in late 2013 as part of the 50 Helminth Genomes project.

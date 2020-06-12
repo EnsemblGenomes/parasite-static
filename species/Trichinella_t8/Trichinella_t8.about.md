@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Trichinella_t8/Trichinella_t8.about.html on Thu Jun 11 13:46:22 2020)
+One of the _Trichinella_ genus of parasitic nematodes, the causative agents of trichinosis (also known as trichinellosis). The unnamed genotype _Trichinella_ T8 is closely related to _T. britovi_ and has been detected only three times in sylvatic carnivores (lions and a spotted hyena) and only in South Africa and Namibia.

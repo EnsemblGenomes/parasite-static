@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Taenia_solium/Taenia_solium.about.html on Thu Jun 11 13:46:05 2020)
+The cestode _Taenia solium_, or pork tapeworm, is a parasite transmitted to pigs through human faeces or contaminated fodder, and to humans through uncooked or undercooked pork. Species can be found in many areas of the world including Africa, Southern Europe, Asia, South America, and some areas of North America. Infections can lead to cysticercosis, which is a disease that can cause seizures, so it is important seek treatment.

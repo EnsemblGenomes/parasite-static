@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Litomosoides_sigmodontis/PRJEB3075/Litomosoides_sigmodontis_PRJEB3075.assembly.html on Thu Jun 11 13:44:34 2020)
+The genome assembly was produced by the [Blaxter laboratory at University of Edinburgh](http://www.nematodes.org/). The data represented here is version nLs.2.1 from [nematodes.org](http://nematodes.org/genomes/litomosoides_sigmodontis/).

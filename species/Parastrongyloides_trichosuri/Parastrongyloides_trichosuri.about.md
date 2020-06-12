@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Parastrongyloides_trichosuri/Parastrongyloides_trichosuri.about.html on Thu Jun 11 13:45:17 2020)
+The nematode _Parastrongyloides trichosuri_ is an intestinal parasite of Australian Brush-tailed possums. This parasite has the capacity to undergo multiple reproductive cycles as a free-living worm and thereby amplify the numbers of its infective L3s in faeces. This unique feature makes _P. trichosuri_ a model for studies that explore the genetic basis of longevity and parasitism.

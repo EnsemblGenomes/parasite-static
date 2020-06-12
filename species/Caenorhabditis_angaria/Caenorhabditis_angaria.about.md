@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Caenorhabditis_angaria/Caenorhabditis_angaria.about.html on Thu Jun 11 13:43:31 2020)
+_Caenorhabditis angaria_ is associated with the palm and sugarcane weevils, _Rhynchophorus palmarum_ and _Metamasius hemipterus (Curculionidae)_ in Trinidad and Florida. The nematodes propagate on decomposing tissue of coconut palms and sugar cane in the galleries of the weevils. Dauer larvae wave and are transported by adult weevils. The association is probably phoretic, although _C. angaria_ can develop on dead weevils.

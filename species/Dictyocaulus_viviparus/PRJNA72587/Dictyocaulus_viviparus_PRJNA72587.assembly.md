@@ -1,0 +1,2 @@
+[//]: # (Created by ./bin/manage_files.pl from ./species/Dictyocaulus_viviparus/PRJNA72587/Dictyocaulus_viviparus_PRJNA72587.assembly.html on Thu Jun 11 13:43:53 2020)
+The genome assembly was produced by the [Mitreva laboratory at the Genome Institute of Washington University](http://genome.wustl.edu/people/groups/detail/mitreva-lab/), and published in [McNulty _et al._, 2016](http://europepmc.org/abstract/MED/26856411).
