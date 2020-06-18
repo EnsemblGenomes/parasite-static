@@ -1,0 +1,2 @@
+This assembly is derived from a pool of individuals sampled from an adult female Zebu at a livestock market in
+Chwele, Bungoma County, Western Kenya. Oxford Nanopore MinION long reads (generated in a field laboratory in Busia, Western Kenya) were used for the assembly, together with Illumina short reads (generated at the [BecA-ILRI Hub](https://www.ilri.org/research/programs/beca-ilri-hub) in Nairobi, Kenya) for error correction. The assembly is described in full in [Stevens et al, 2020](https://pubmed.ncbi.nlm.nih.gov/32109387/).
