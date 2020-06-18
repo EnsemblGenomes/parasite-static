@@ -1,0 +1,1 @@
+Protein-coding gene models were predicted by [Sun Yat-Sen University](http://www.sysu.edu.cn/) using homology and RNAseq evidence, as described by [Xu et al, 2019](https://pubmed.ncbi.nlm.nih.gov/31751335/).
