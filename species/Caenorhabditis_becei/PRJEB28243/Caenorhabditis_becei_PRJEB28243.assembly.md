@@ -1,0 +1,1 @@
+Short and long insert Illumina libraries were sequenced at the [NYU Center for Genomics and Systems Biology GenCore](https://gencore.bio.nyu.edu/) and assembled using Platanus, as described in [Stevens et al., 2019](https://pubmed.ncbi.nlm.nih.gov/31007946/).
