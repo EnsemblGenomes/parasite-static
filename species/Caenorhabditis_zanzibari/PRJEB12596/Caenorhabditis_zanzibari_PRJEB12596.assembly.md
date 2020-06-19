@@ -1,0 +1,1 @@
+Short-insert Illumina reads were assembled using Platanus. The resulting contigs were scaffolded with Trinity-assembled transcripts using SCUBAT2. The assembly is described in full in [Stevens et al., 2019](https://pubmed.ncbi.nlm.nih.gov/31007946/).
