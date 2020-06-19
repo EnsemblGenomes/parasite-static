@@ -1,0 +1,1 @@
+The trematode _Fasciola gigantica_ is a large liver fluke, found mostly in tropical and subtropical regions. Its defnitive hosts are domestic and wild ruminants, and various species of snail act as intermediate hosts. In humans it causes fascioliasis. 
