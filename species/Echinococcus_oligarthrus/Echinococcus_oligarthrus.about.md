@@ -1,0 +1,1 @@
+The cestode _Echinococcus oligarthrus_ occurs in Central and South America, where it causes neotropical echinococcosis. Its definitive hosts are wild neotropical felids (such as ocelots and pumas), with a range of rodents and lagomorphs as intermediate hosts. Reports of human infections are rare, and those that have been reported are in rural farming and indigenous communities.
