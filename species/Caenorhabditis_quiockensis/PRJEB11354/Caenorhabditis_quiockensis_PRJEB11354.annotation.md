@@ -1,0 +1,1 @@
+The annotation presented here corresponds to the _v1_ annotation retrieved from [caenorhabditis.org](http://caenorhabditis.org/) in March 2020. Gene models were predicted using BRAKER, guided by RNAseq, as described in [Stevens et al., 2019](https://pubmed.ncbi.nlm.nih.gov/31007946/). 
