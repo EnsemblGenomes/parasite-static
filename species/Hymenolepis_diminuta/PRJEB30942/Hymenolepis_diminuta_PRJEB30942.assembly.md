@@ -1,0 +1,1 @@
+Contigs were generated from paired-end and mate-pair libraries and scaffolded with long Oxford Nanopore reads using LINKS and danaasm-link, as described by [Nowak et al., 2019](https://pubmed.ncbi.nlm.nih.gov/31796747/).
