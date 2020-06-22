@@ -1,0 +1,1 @@
+_Panagrolaimus superbus_ is a free-living, obligately outcrossing nematode, originally isolated from a gull's nest in Surtsey, Iceland. Like other members of the _Panagrolaimus_ genus, it is notable for its ability to survive dessication stress.
