@@ -1,0 +1,1 @@
+The Antarctic nematode _Panagrolaimus davidi_ (also referred to as _Panagrolaimus sp. DAW1_) is remarkable for its ability to survive low sub-zero temperatures. When cooled quicky at very low temperatures, it can survive extensive intracellular freezing. When coooled slowly at higher temperatures. _P. davidi_ undergoes cryoprotective dehydration (water loss to prevent freezing).
