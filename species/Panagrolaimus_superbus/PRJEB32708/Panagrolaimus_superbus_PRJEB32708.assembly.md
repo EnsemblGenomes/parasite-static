@@ -1,0 +1,1 @@
+Short-insert Illumina reads were assembled with CLC Assembly Cell. Contigs were scaffolded with RNAseq-derived mRNA predictions using the SCUBAT pipeline, as described by [Schiffer et al., 2019](https://pubmed.ncbi.nlm.nih.gov/31759330/).
