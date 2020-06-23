@@ -1,2 +1,2 @@
 [//]: # (Created by ./bin/manage_files.pl from ./species/Steinernema_carpocapsae/PRJNA202318/Steinernema_carpocapsae_PRJNA202318.assembly.html on Thu Jun 11 13:45:49 2020)
-The genome assembly was produced by the California Institute of Technology using PacBio long reads, with BioNano optical mapping, as described in [Serra et al. (2019)](https://www.ncbi.nlm.nih.gov/pubmed/31113823). It is an update to an earlier assembly from the same institute.
+The genome assembly was produced by the University of California, Irvine using PacBio long reads, with BioNano optical mapping, as described in [Serra et al. (2019)](https://www.ncbi.nlm.nih.gov/pubmed/31113823). It is an update to an earlier assembly from the same institute.
