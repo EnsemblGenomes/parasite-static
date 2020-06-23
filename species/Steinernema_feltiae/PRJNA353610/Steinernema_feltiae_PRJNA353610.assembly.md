@@ -1,0 +1,1 @@
+The genome presented here is derived from _S. feltiae_ (strain NW) collected from a working agricultural field in south central Washington, USA. It was generated with PacBio reads, as described in [Fu et al., 2020](https://pubmed.ncbi.nlm.nih.gov/32180379/).
