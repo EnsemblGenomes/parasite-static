@@ -1,0 +1,1 @@
+The assembly was retrieved from [INSDC](https://www.ncbi.nlm.nih.gov/assembly/GCA_003640385.1). It was generated with short-read Illumina technology by Rashanthy Nadarajah and colleagues at the [University of Colombo](https://cmb.ac.lk/).
