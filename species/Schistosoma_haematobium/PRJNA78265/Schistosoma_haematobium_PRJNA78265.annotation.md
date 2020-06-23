@@ -1,2 +1,2 @@
 [//]: # (Created by ./bin/manage_files.pl from ./species/Schistosoma_haematobium/PRJNA78265/Schistosoma_haematobium_PRJNA78265.annotation.html on Thu Jun 11 13:45:36 2020)
-The gene predictions were originally made by the [Gasser group at the University of Melbourne](http://www.gasserlab.org/), as described by [Young et al (2012)](http://europepmc.org/abstract/MED/22246508). A cleaned-up version of the annotation was subsequently deposited in the INSDC (assembly SchHae_1.0), and is shown here.
+Gene models were generated using a pipeline incorporating MAKER2, EVM, and transfer from the previous "Shae.V1" gene set using liftOver and RATT. The annotation is described in full by [Stroehlein et al., 2019](https://pubmed.ncbi.nlm.nih.gov/31494670/).
