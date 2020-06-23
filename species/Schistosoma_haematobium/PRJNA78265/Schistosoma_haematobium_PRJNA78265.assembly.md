@@ -1,2 +1,2 @@
 [//]: # (Created by ./bin/manage_files.pl from ./species/Schistosoma_haematobium/PRJNA78265/Schistosoma_haematobium_PRJNA78265.assembly.html on Thu Jun 11 13:45:37 2020)
-The _S. haematobium_ genome has been sequenced by the [Gasser group at the University of Melbourne](http://www.gasserlab.org/), as described by [Young et al (2012)](http://europepmc.org/abstract/MED/22246508). The assembly version here is a slightly cleaned-up version of the original published one, deposited in the INSDC as "SchHae_1.0".
+The _S. haematobium_ genome presented here represents the "v2" assembly, generated using PacBio data, a long-range ("Chicago") library and Illumina sequencing. The assembly is described in full by [Stroehlein et al., 2019](https://pubmed.ncbi.nlm.nih.gov/31494670/).
