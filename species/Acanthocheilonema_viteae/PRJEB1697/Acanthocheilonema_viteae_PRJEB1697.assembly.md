@@ -1,2 +1,2 @@
-[//]: # (Created by ./bin/manage_files.pl from ./species/Acanthocheilonema_viteae/PRJEB1697/Acanthocheilonema_viteae_PRJEB1697.assembly.html on Thu Jun 11 13:43:08 2020)
+[//]: # (Created by ./bin/manage_files.pl from ./species/Acanthocheilonema_viteae/PRJEB1697/Acanthocheilonema_viteae_PRJEB1697.assembly.html on Fri Jun 12 11:03:27 2020)
 The _A. viteae_ genome has been sequenced by the [Blaxter laboratory at University of Edinburgh](http://www.nematodes.org/). The assembly version represented here is nAv1.0, obtained from [nematodes.org](http://nematodes.org/genomes/acanthocheilonema_viteae/).

@@ -81,14 +81,12 @@ Output: a list of all missing files.
 
 ### Creating HTML files from Markdown
 
-**Not yet implemented**
-
 The Markdown files are used to make authoring easier, but the web site requires HTML.
 
 To create HTML files from all Markdown files:
 
 ```bash
-./bin/manage_files.pl --make-html [--root-dir ./my_dir]
+./bin/manage_files.pl --md2html [--root-dir ./my_dir]
 ```
 Output: a list of all HTML files that have been created.
 
