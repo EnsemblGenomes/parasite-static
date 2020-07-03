@@ -65,8 +65,10 @@ use constant BIOPROJECT_STATIC_TABLE   => 'static_genome';
 
 
 my $root_dir = ROOT_DIR;
-my ($find_missing,$create_missing,$placeholders,$md_to_html,$help);
+my ($species_filter, $bioproject_filter, $find_missing,$create_missing,$placeholders,$md_to_html,$help);
 GetOptions ("root-dir=s"      => \$root_dir,
+            "species=s"       => \$species_filter,
+            "bioproject=s"    => \$bioproject_filter,
             "find-missing"    => \$find_missing,
             "create-missing"  => \$create_missing,
             "placeholders"    => \$placeholders,
@@ -75,7 +77,9 @@ GetOptions ("root-dir=s"      => \$root_dir,
             )
             || die "failed to parse command line arguments";
 $help && die   "Usage:    $0 [options]\n\n"
-            .  "Options:  --root-dir         root of new species/bioproject directory structure; default \"".ROOT_DIR."\"\n"
+            .  "Options:  --root-dir <dir>   root of new species/bioproject directory structure; default \"".ROOT_DIR."\"\n"
+            .  "          --species <name>   perform operations on this species (not case sensitive; use underscore between genus and species)\n"
+            .  "          --bioproject <id>  perform operations on this bioproject (not case sensitive)\n"
             .  "          --find-missing     find missing markdown files for published genomes\n"
             .  "          --create-missing   create missing HTML and markdown files for published genomes from deprecated database\n"
             .  "          --placeholders     create placeholder markdown files for unpublished genomes\n"
@@ -101,7 +105,10 @@ CORE: foreach my $this_core_db ( ProductionMysql->staging->core_databases() ) {
       # say "Ignoring: $this_core_db";
       next CORE
    }
-
+   
+   next CORE unless ! $species_filter     || lc($species)      eq lc($species_filter);
+   next CORE unless ! $bioproject_filter  || lc($bioproject)   eq lc($bioproject_filter);
+   
    # core database names all lowercase, but paths on WBPS web site have capitalized genus
    $species = ucfirst($species);
    
@@ -115,7 +122,8 @@ CORE: foreach my $this_core_db ( ProductionMysql->staging->core_databases() ) {
    # path on WBPS web site is like "Acanthocheilonema_viteae_prjeb1697" (note capitalized genus)
    try {
       $wwwmech->get( WBPS_BASE_URL.$species.'_'.$bioproject );
-      
+      # say "Found: ${species}_${bioproject}";
+
       if($find_missing) {
          # print list of markdown files that are missing
          unless($species_count{$species}) {
@@ -134,7 +142,6 @@ CORE: foreach my $this_core_db ( ProductionMysql->staging->core_databases() ) {
          foreach my $field ( @{+BIOPROJECT_STATIC_FIELDS} ) {
             $html_files{$field} = join('/', $bioproject_dir,  "${bioproject_base_name}.${field}.html"),
          }
-         
          # get static content for species
          # if this returns nothing, the database doesn't include this species so we won't proceed further
          if(my $species_static_content = get_static_content(SPECIES_STATIC_TABLE, $species_base_name, SPECIES_STATIC_FIELD)) {
@@ -160,8 +167,9 @@ CORE: foreach my $this_core_db ( ProductionMysql->staging->core_databases() ) {
                   $md && say $md;
                }
             } # foreach my $field
+         } else {
+            Carp::cluck "WARNING:  failed to find static content for $species_base_name in ".STATIC_CONTENT_DB.'.'.SPECIES_STATIC_TABLE;
          } # if(my $species_static_content
-         
       } # if($create_missing)
       
       if($md_to_html) {
