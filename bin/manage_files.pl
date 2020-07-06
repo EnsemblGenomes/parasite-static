@@ -134,17 +134,24 @@ CORE: foreach my $this_core_db ( ProductionMysql->staging->core_databases() ) {
       
       if($create_missing) {
          # create HTML files that are missing or empty
-         
          # this hash stores the files to be created
          # 'species' in awkward as the db field name and the file name don't match...
          my %html_files = ( species => join('/', $species_dir, "${species_base_name}.".SPECIES_FILE.".html") );
          # ...but all other cases are files for the bioproject, where field names match file names
          foreach my $field ( @{+BIOPROJECT_STATIC_FIELDS} ) {
-            $html_files{$field} = join('/', $bioproject_dir,  "${bioproject_base_name}.${field}.html"),
+            $html_files{$field} = join('/', $bioproject_dir,  "${bioproject_base_name}.${field}.html");
          }
          # get static content for species
          # if this returns nothing, the database doesn't include this species so we won't proceed further
-         if(my $species_static_content = get_static_content(SPECIES_STATIC_TABLE, $species_base_name, SPECIES_STATIC_FIELD)) {
+         my $species_static_content = get_static_content(SPECIES_STATIC_TABLE, $species_base_name, SPECIES_STATIC_FIELD);
+         # some species static content is stored in the db using species name plus bioproject (but note bioproject is all lowercase);
+         # try this if the db query about didn't find anything
+         unless($species_static_content) {
+            $species_static_content = get_static_content(SPECIES_STATIC_TABLE, ucfirst(lc($bioproject_base_name)), SPECIES_STATIC_FIELD);
+            # for these species, the species description file needs to be placed in the bioproject directory instead of the specied directory
+            $html_files{species} = join('/', $bioproject_dir, "${bioproject_base_name}.".SPECIES_FILE.".html");        
+         }
+         if($species_static_content) {
             foreach my $field (keys %html_files) {
                # create HTML file unless a non-empty one exists
                unless(-s $html_files{$field}) {
@@ -175,11 +182,22 @@ CORE: foreach my $this_core_db ( ProductionMysql->staging->core_databases() ) {
       if($md_to_html) {
          # create missing HTML files from markdown files
          my @md_files = ();
+         # put species "about" file onto the list of HTML files to be created
          unless($species_count{$species}) {
             push( @md_files,
-                  join('/',$species_dir,$species_base_name.'.'.SPECIES_FILE.'.md')
+                  join('/',$species_dir,$species_base_name.'.'.SPECIES_FILE.'.md'),
                   );
          }
+         # this adds the species "about" file, but for the (unusual) case of species with
+         # and "asbout" file in every bioproject subdirectory
+         # (note it is harmless to put non-existent files onto this list: it just means they'll
+         # be looked for and that if found, and HTML file will be created from them)
+         unless($species_count{$bioproject_base_name}) {
+            push( @md_files,
+                  join('/',$bioproject_dir,$bioproject_base_name.'.'.SPECIES_FILE.'.md')
+                  );
+         }
+         # add all the usual bioproject files to the list
          push( @md_files,
                map   {  join( '/',
                               $bioproject_dir,

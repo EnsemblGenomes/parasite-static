@@ -6,6 +6,8 @@ Keeping static contents for ParaSite website
 
 ## Structure
 
+### Nearly all species:
+
 - species
   - Ancylostoma ceylanicum
     - Ancylostoma ceylanicum.about.md
@@ -23,8 +25,34 @@ Keeping static contents for ParaSite website
       - Ancylostoma_ceylanicum_PRJNA72583.publication.md
   - ...etc
 
+### Alternative case:
 
+A species may have a separate "about" file for each bioproject:
 
+- species
+  - Trichinella_pseudospiralis
+      - ISS13PRJNA257433
+        - Trichinella_pseudospiralis_ISS13PRJNA257433.about.md
+        - Trichinella_pseudospiralis_ISS13PRJNA257433.summary.html
+        - Trichinella_pseudospiralis_ISS13PRJNA257433.assembly.html
+        - Trichinella_pseudospiralis_ISS13PRJNA257433.annotation.html
+        - Trichinella_pseudospiralis_ISS13PRJNA257433.resources.html
+        - Trichinella_pseudospiralis_ISS13PRJNA257433.publication.html
+      - ISS141PRJNA257433
+        - Trichinella_pseudospiralis_ISS141PRJNA257433.about.md
+        - Trichinella_pseudospiralis_ISS141PRJNA257433.summary.html
+        - Trichinella_pseudospiralis_ISS141PRJNA257433.assembly.html
+        - Trichinella_pseudospiralis_ISS141PRJNA257433.annotation.html
+        - Trichinella_pseudospiralis_ISS141PRJNA257433.resources.html
+        - Trichinella_pseudospiralis_ISS141PRJNA257433.publication.html
+      - ...etc
+   - ...etc
+
+Note that `manage_files.pl` (see below) _will_ cope with this alternative case when
+creating files from the old static content database (`--create-missing`) and
+when creating markdown files from HTML (`--md2mthml`).
+        
+        
 ## Managing files
 
 The script `./bin/manage_files.pl` helps manage the files.
