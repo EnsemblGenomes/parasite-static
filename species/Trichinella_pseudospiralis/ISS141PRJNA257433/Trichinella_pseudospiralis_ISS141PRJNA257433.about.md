@@ -1,2 +1,0 @@
-[//]: # (Created by ./bin/manage_files.pl from ./species/Trichinella_pseudospiralis/ISS141PRJNA257433/Trichinella_pseudospiralis_ISS141PRJNA257433.about.html on Mon Jul  6 10:05:56 2020)
-One of the _Trichinella_ genus of parasitic nematodes, the causative agents of trichinosis (also known as trichinellosis). _Trichinella pseudospiralis_ is a species which does not encapsulate in host muscle tissue and infects mammals and birds worldwide. This strain of _T. pseudospiralis_, ISS141, had a spotted quoll from Australia as its original host.
