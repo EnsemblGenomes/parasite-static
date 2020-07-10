@@ -1,0 +1,1 @@
+One of the _Trichinella_ genus of parasitic nematodes, the causative agents of trichinosis (also known as trichinellosis). _Trichinella pseudospiralis_ is a species which does not encapsulate in host muscle tissue and infects mammals and birds worldwide. 
