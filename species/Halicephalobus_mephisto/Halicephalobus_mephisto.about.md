@@ -1,2 +1,2 @@
 [//]: # (Created by ./bin/manage_files.pl from ./species/Halicephalobus_mephisto/Halicephalobus_mephisto.about.html on Thu Jun 11 13:44:20 2020)
-The nematode _Halicephalobus mephisto_ is a free-living worm feeding on subterranean bacteria. It was first found in ore recovered from deep rock fracture water in South African goldmines. It is able to survive as deep as 3.6 km under the surface of Earth, resisting temperatures as high as 37ÃÂÃÂ°C.
+The nematode _Halicephalobus mephisto_ is a free-living worm feeding on subterranean bacteria. It was first found in ore recovered from deep rock fracture water in South African goldmines. It is able to survive as deep as 3.6 km under the surface of Earth, resisting temperatures as high as 37°C.
