@@ -1,2 +1,1 @@
-[//]: # (Created by ./bin/manage_files.pl from ./species/Parapristionchus_giblindavisi/PRJEB27334/Parapristionchus_giblindavisi_PRJEB27334.annotation.html on Thu Jun 11 13:45:13 2020)
-The annotation was created using AUGUSTUS and SNAP2 guided by transcriptomic data.
+The version of the annotation presented here (live since release 16) represents an update to that described in [Prabh et al., 2018](https://pubmed.ncbi.nlm.nih.gov/30232197/), and was submitted directly to WormBase ParaSite by the authors.
