@@ -1,0 +1,1 @@
+Nanopore long reads were assembled at the [University of Miyazaki](https://www.miyazaki-u.ac.jp/english/) using Flye v2.7.1. Base correction was then performed with the Illumina paired-end reads with two rounds of Pilon v1.23, as described by [Sun et al., 2020](https://europepmc.org/article/MED/33093047).
