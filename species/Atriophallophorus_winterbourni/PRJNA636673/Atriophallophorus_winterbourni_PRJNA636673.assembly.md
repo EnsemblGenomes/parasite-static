@@ -1,0 +1,1 @@
+This is the first _de novo_ assembly of _Atriophallophorus winterbourni_. Illumina HiSeq 4000 reads were assembled at [The Swiss Federal Institute of Technology](https://ethz.ch/en.html) in Zurich using the MaSuRCA 3.2.3 assembler, as described by [Zajac et al, 2021.](https://europepmc.org/article/MED/33484570)
