@@ -1,1 +1,1 @@
-
+Fasciolopsis buski (subfamily Fasciolopsinae) is a large fluke (up to 7.5 cm long, 2.5 cm wide) that infects the small intestine of humans and pigs in East and Southeast Asia, causing diarrhea, abdominal pain, fever, ascites, and bowel obstruction. It is closely related to [_Fasciola gigantica_ ](https://parasite.wormbase.org/Fasciola_gigantica_prjna230515/Info/SpeciesLanding/) and [_Fasciola hepatica_](https://parasite.wormbase.org/Fasciola_hepatica_prjna179522/Info/SpeciesLanding/).
