@@ -1,0 +1,1 @@
+_Gyrodactylus bullatarudis_ is a monogenean parasite of the guppy (_Poecilia reticulata_) which is a model species in eco-evolutionary research. Monogeneans are economically important fish pathogens and provide ideal model systems for studying host–pathogen coevolution. 
