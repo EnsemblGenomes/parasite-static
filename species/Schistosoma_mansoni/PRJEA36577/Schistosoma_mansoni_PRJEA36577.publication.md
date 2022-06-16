@@ -1,2 +1,3 @@
 [//]: # (Created by ./bin/manage_files.pl from ./species/Schistosoma_mansoni/PRJEA36577/Schistosoma_mansoni_PRJEA36577.publication.html on Thu Jun 11 13:45:39 2020)
 19606141;22253936
+Sarah K Buddenborg, Alan Tracey, Duncan J Berger, Zhigang Lu, Stephen R Doyle, Beiyuan Fu, Fengtang Yang, Adam J Reid, Faye H Rodgers, Gabriel Rinaldi, Geetha Sankaranarayanan, Ulrike Böhme, Nancy Holroyd, Matthew Berriman. Pre-print: [Assembled chromosomes of the blood fluke Schistosoma mansoni provide insight into the evolution of its ZW sex-determination system](https://doi.org/10.1101/2021.08.13.456314). bioRxiv 2021.08.13.456314
