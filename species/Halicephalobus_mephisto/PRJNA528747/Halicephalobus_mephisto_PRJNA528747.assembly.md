@@ -1,2 +1,2 @@
 [//]: # (Created by ./bin/manage_files.pl from ./species/Halicephalobus_mephisto/PRJNA528747/Halicephalobus_mephisto_PRJNA528747.assembly.html on Thu Jun 11 13:44:20 2020)
-The assembly was deposited to INSDC under PRJNA528747, and after accessioning was made available to WormBase by John Bracht. Manuscript under review.
+As described in [Weinstein et al (2019)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6872716/). A TruSeq library was paired-end sequenced on an Illumina HiSeq2500 with 215 bp reads. This data was assembled with [Platanus](http://platanus.bio.titech.ac.jp/). For PacBio, 30 lanes were run on the RS II system using libraries generated off the same DNA sample used in Illumina.
