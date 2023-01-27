@@ -1,2 +1,2 @@
 [//]: # (Created by ./bin/manage_files.pl from ./species/Halicephalobus_mephisto/PRJNA528747/Halicephalobus_mephisto_PRJNA528747.annotation.html on Thu Jun 11 13:44:20 2020)
-The annotation was submitted to WormBase in May 2019 by John Bracht.
+As described in [Weinstein et al (2019)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6872716/), [Maker2 version 2.38.1](https://github.com/Yandell-Lab/maker) was utilized to run Augustus and SNAP as ab initio predictors to make comprehensive gene predictions for H. mephisto, and incorporating 28 nematode proteomes as hints along with the RNA-seq data.
