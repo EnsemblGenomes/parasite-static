@@ -1,1 +1,1 @@
-Gene prediction were done using [MAKER software](http://www.yandell-lab.org/software/maker.html) FASTA algorithm. As described by [Rashanthy Nadarajah et al, 2021](https://doi.org/10.21203/rs.3.rs-579175/v1). The annotation was sumbitted directly to WormBase ParaSite by the authors.
+Gene prediction was done using [MAKER software](http://www.yandell-lab.org/software/maker.html) FASTA algorithm, as described by [Rashanthy Nadarajah et al, 2021](https://doi.org/10.21203/rs.3.rs-579175/v1). The annotation was sumbitted directly to WormBase ParaSite by the authors.
