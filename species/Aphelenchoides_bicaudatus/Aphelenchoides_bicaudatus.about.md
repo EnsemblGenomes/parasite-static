@@ -1,0 +1,1 @@
+_A. bicaudatus_ has previously been considered a primarily mycophagous species and is known to feed on mushroom mycelium. However, it has also been found living on buds and leaves of crops and plants.
