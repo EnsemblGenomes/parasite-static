@@ -1,0 +1,1 @@
+The foliar nematode *Aphelenchoides besseyi*, a.k.a. the rice white tip, infects more than 200 plant species in 35 genera including rice, wheat, soybeans and strawberries. This nematode is 0.4–0.8 mm in body size, has a life cycle of around 10–12 days and it can reproduce in extreme environments, making it hard to eliminate.
