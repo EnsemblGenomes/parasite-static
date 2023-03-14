@@ -1,0 +1,1 @@
+According to [Bali S, et al., (2021)](https://doi.org/10.1094/MPMI-12-20-0337-A), genome annotation was performed using the _M. hapla_ protein dataset as Protein Homology Evidence and the SNAP training file prepared from the first round of annotation. EST evidence was used.
