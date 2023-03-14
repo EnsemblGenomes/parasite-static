@@ -1,0 +1,3 @@
+This assembly was generated from an adult _D. immitis_ worm sampled from the right heart and pulmonary artery of a dog that died from an unrelated cause in the municipality of Caminha, northern Portugal, November 2020.
+
+Oxford nanopore long-reads were used to perform a complete genome assembly using [Flye](https://doi.org/10.1038/s41587-019-0072-8) software (version 2.8.3). Contigs potentially belonging to D. immitis were corrected by mapping the raw reads against the assembled contigs through the [Pilon](https://github.com/broadinstitute/pilon) software (version 1.24). For full details read [Gomes-de-Sa S., et al. (2022)](https://europepmc.org/article/MED/35681811). 
