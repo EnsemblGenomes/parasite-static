@@ -1,0 +1,1 @@
+The genome was annotated using [Genemark-ES](http://exon.gatech.edu/GeneMark/) software (version 4.65) with self-training and default parameters. Non-coding regions belonging to rRNAs and tRNAs were also located with [RNAmmer](https://doi.org/10.1093%2Fnar%2Fgkm160) software (version 1.2) and [tRNAscan-SE](http://lowelab.ucsc.edu/tRNAscan-SE/) (version 2.0), respectively.
