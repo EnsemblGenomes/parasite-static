@@ -1,0 +1,3 @@
+For this assembly, _M. chitwoodi_ race 1 population, extracted from 3-month-old infected tomato plants, was used. This population did not reproduce on alfalfa (used as a rotation crop to control _M. chitwoodi_ populations).
+
+According to [Bali S, et al., (2021)](https://doi.org/10.1094/MPMI-12-20-0337-A), PacBio long sequencing reads were assembled using the [SMRT analysis pipeline](https://www.pacb.com/products-and-services/analytical-software/smrt-analysis/). Short Illumina reads were used to error correct PacBio data contigs using [pilon v.1.22](https://doi.org/10.1371/journal.pone.0112963). 
