@@ -1,0 +1,1 @@
+_Propanagrolaimus sp. JU765_ (formerly _Panagrolaimus sp. JU765_) is a free-living, hermaphroditic nematode. It has been used as an outgroup in the study of cryptobiosis and anhydrobiosis, both common in members of the closely related _Panagrolaimus_ genus.
