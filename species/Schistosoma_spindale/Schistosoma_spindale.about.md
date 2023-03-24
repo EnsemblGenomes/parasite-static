@@ -1,0 +1,1 @@
+*Schistosoma spindale* is a digenetic trematode causing intestinal schistosomiasis in the ruminants. The distribution of *S. spindale* include Sri Lanka, India, Bangladesh, Thailand, Malaysia, and Laos.
