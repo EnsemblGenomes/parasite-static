@@ -1,1 +1,2 @@
-This genome assembly was provided by Duncan Berger. It was generated from [PacBio](https://www.pacb.com/) long-read sequencing and Hi-C chromosome conformation capture technologies. [Berger, D. (2021). Comparative and population genomic analyses of the parasitic blood flukes (Doctoral thesis)](https://doi.org/10.17863/CAM.86667).
+This genome assembly was provided by Duncan Berger. It was generated from 3 mixed-sex adult worm, sampled in Tanzania (2006). [PacBio](https://www.pacb.com/) long-read sequencing and Hi-C chromosome conformation capture technologies were used. [Berger, D. (2021). Comparative and population genomic analyses of the parasitic blood flukes (Doctoral thesis)](https://doi.org/10.17863/CAM.86667).
+
