@@ -1,0 +1,1 @@
+*Trichobilharzia szidati* is a trematode, known to cause cercarial dermatitis or swimmer's itch in humans and waterfowl. *T. szidati* has a complex life cycle, involving a snail intermediate host and a vertebrate definitive host. It is commonly found in freshwater habitats in Europe, particularly in Germany and Poland.
