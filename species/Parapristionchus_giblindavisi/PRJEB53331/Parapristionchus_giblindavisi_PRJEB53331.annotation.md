@@ -1,0 +1,1 @@
+Evidence-based gene annotations were generated based on protein homology and transcriptome data using the PPCAC software (version 1.0; [Athanasouli et al. 2020](https://europepmc.org/article/MED/33045985); [Rödelsperger 2021](https://europepmc.org/article/MED/33765927)).
