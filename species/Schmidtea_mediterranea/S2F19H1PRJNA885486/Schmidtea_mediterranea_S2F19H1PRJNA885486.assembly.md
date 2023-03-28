@@ -1,7 +1,9 @@
 This genome was produced by the [Department Rink](https://www.mpinat.mpg.de/rink) at the [Max Planck Institute for Multidisciplinary Sciences](https://www.mpinat.mpg.de/) and [PlanMine](https://planmine.mpinat.mpg.de/).
 
-This is an unpublished genome project (publication pending). To work with this data you **must** follow our [Unpublished data Usage Policy](https://parasite.wormbase.org/info/about/datausage.html).
+**Unpublished data**
 
+This is an unpublished genome project (publication pending). Before working with these data, please read our [Policy for using unpublished data](https://parasite.wormbase.org/info/about/datausage.html).
+  
 Circular consensus sequences from ~30x coverage PacBio reads were called using [pbccs](https://ccs.how/) v(6.0.0) and reads with quality > 0.99 (Q20) were taken forward as "HiFi" reads.  Additionally 1,000 Million Hi-C reads were generated from extracted nuclei of whole animals using the [Arima-HiC+ Kit](https://arimagenomics.com/products/genome-wide-hic/). [PacBio](https://www.pacb.com/) HiFi and Hi-C reads were used to assemble phased contigs with [hifiasm v0.7](https://doi.org/10.1038/s41592-020-01056-5). Next, Hi-C reads whose mapping quality no less than 10 (-q 10) were further utilized to scaffold the contigs from each haplotype by [SALSA](https://github.com/marbl/SALSA) v2 following the [hic-pipeline](https://github.com/esrice/hic-pipeline), which includes filtering procedures such as removal of experimental artifacts from Hi-C alignments, fixation of Hi-C pair mates, and removal of PCR duplicates, etc. Four chromosome-level scaffolds could be observed in both haplotypes after scaffolding. However, Hi-C heatmap revealed evidence of misplacement of contigs in terms of positions and orientations. These errors were then manually curated based on the interaction frequency indicated by the intensity of Hi-C signals.
   
 This genome page corresponds to the Haplotype 1 of this phased assembly. For Haplotype 2 click [here](https://parasite.wormbase.org/Schmidtea_mediterranea_s2f19h2prjna885486).
