@@ -1,0 +1,1 @@
+*Schistosoma intercalatum* is a parasitic flatworm that infects humans and causes intestinal schistosomiasis. The parasite is found in parts of western and central Africa. It has a complex life cycle, with freshwater snails acting as intermediate hosts and humans as definitive hosts. 
