@@ -1,0 +1,1 @@
+*Schistosoma guineensis* is a parasitic flatworm that causes intestinal schistosomiasis in humans. It is endemic to West and Central Africa, with Cameroon and Equatorial Guinea having the highest prevalence of the disease. The parasite has a complex life cycle involving freshwater snails and humans, with infection occurring through contact with contaminated water.
