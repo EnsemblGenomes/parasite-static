@@ -1,1 +1,1 @@
-Gene models were provided by Duncan Berger, using a customized pipeline that integrated RNA-Seq homology data [Berger, D. (2021). *Comparative and population genomic analyses of the parasitic blood flukes* (Doctoral thesis)](https://doi.org/10.17863/CAM.86667).
+Gene finding employed a customized pipeline that integrated RNA-Seq and homology data. [Berger, D. (2021). *Comparative and population genomic analyses of the parasitic blood flukes* (Doctoral thesis)](https://doi.org/10.17863/CAM.86667).
