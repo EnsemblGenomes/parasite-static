@@ -1,1 +1,1 @@
-Illumina reads were assembled using Allpaths_LG. Scaffolding was improved using Pygap (gap closure tool), the Pyramid assembler with Illumina paired reads to close gaps and extend contigs, and L_RNA_scaffolder, which uses transcript alignments to improve contiguity. 
+
