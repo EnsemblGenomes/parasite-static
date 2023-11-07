@@ -1,1 +1,1 @@
-<em>Levipalatum&nbsp;texanum</em> is a free-living nematode in the family <em>Diplogastridae</em>. The species consists of self-fertile hermaphrodites which are morphologically females, and males. Found in the South-Eastern United States, it lives in association with scarab beetles.
+<em>Levipalatum&nbsp;texanum</em> is a free-living nematode in the family <em>Diplogastridae</em>. The species consists of self-fertile hermaphrodites which are morphologically females, and males. Found in the South-Eastern United States, the species lives in association with scarab beetles.
