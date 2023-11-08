@@ -1,1 +1,0 @@
-HiFi data was adaptor-trimmed and filtered for low-quality reads. Genome assembly graphs were produced using HiFiasm (v0.16.1). The mitochondrial genome was assembled using the mitoHiFi v2.2 software, feeding quality filtered HiFi reads and the C. nassatus reference mitogenome as a backbone.
