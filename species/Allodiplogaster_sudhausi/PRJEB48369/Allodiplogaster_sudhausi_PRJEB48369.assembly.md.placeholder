@@ -1,1 +1,0 @@
-Raw long-read data was assembled using Canu version 1.8. Sequence coverage distribution was investigated by aligning the genome against previously generated Illumina sequencing data from the European Nucleotide Archive (ENA) with BWA mem program (version 0.7.17). 
