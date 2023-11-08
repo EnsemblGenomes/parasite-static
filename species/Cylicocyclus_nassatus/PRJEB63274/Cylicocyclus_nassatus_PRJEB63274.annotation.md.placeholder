@@ -1,1 +1,1 @@
-Gene annotation was conducted with the EnTAP software, to assign homology information from the EggNOG database, and protein domain information from PFAM and InterPro databases. 
+The full annotation process is outlined in [Salle et al., (2023)](https://www.biorxiv.org/content/10.1101/2023.07.19.549683v1). Gene annotation was conducted with the EnTAP software, to assign homology information from the EggNOG database, and protein domain information from PFAM and InterPro databases. 
