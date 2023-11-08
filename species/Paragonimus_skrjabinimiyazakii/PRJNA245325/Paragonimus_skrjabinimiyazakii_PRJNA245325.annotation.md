@@ -1,1 +1,2 @@
 The full annotation process is outlined in [Rosa et al., (2020)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7370270/).
+The nuclear genome was annotated using the MAKER pipeline v2.31.8. RNA-seq reads were aligned to their respective genome assemblies and assembled using StringTie v1.2.4. Ab initio gene predictions from BRAKER v2 and AUGUSTUS v3.2.2 (trained by BRAKER and run within MAKER) were refined using transcript and protein evidence. 
