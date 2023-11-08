@@ -1,0 +1,1 @@
+The full annotation procedure is outlined in [Casasa et al., (2021)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7826178/). Gene predictions were annotated using Augustus. Protein sequences from P. pacificus and C. elegans were used as training set. Mitochondrial genomes were annotated using MITOS2. 
