@@ -1,0 +1,2 @@
+The full annotation process is described in Lee et al., (2023)>
+Single-worm transcriptome reads were mapped to the corresponding genome assemblies using STAR (ver. 2.7.7a). The gene models were predicted using BRAKER2 (ver. 2.1.6; option: –etpmode) with proteomes and RNA-seq mappings as evidence hints. Transcript predictions were mapped to the reference genome using Minimap2 (-ax splice), converted to gff format and compared against the reference proteome using Gffcompare (ver. v0.11.2).
