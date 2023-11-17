@@ -1,1 +1,1 @@
-Genome assembly was conducted as described in [Siddique et al., (2022)](https://www.nature.com/articles/s41467-022-33769-w.pdf)
+Genome assembly was conducted as described in [Siddique et al., (2022)](https://www.nature.com/articles/s41467-022-33769-w.pdf). Error corrected reads were assembled using wtdbg2 Version: 2.1 − 2018100730.
