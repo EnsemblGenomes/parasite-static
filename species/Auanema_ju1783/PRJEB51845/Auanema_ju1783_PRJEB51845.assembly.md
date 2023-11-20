@@ -1,0 +1,1 @@
+The full assembly process is outlined in [Tandonnet et al., (2022)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9984802/). final de novo genome assembly was performed with MEGAHIT, version 1.2.6, followed by SOAPdenovo, version 2.04-r241.  
