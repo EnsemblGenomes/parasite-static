@@ -1,0 +1,1 @@
+The full annoataion process is outlined in [Tandonnet et al., (2022)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9984802/). The genome was annotated using BRAKER2 version 2.1.6, and Augustus version 3.4.0.
