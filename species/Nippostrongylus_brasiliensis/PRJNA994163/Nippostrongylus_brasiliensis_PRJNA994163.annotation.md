@@ -1,0 +1,1 @@
+An in-house [BRAKER2](https://github.com/Gaius-Augustus/BRAKER)/[TSEBRA](https://github.com/Gaius-Augustus/TSEBRA) pipeline guided by ~100 different RNA-Seq biological replicates was used to annotate the genome by [Erich Schwarz](https://cals.cornell.edu/erich-schwarz) and collaborators at the [Cornell University](https://cals.cornell.edu) 
