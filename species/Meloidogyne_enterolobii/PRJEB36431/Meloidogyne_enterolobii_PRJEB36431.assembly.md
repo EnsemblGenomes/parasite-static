@@ -1,0 +1,2 @@
+The entire assembly process is outlined in [Koutsovoulos et al., (2020)](https://www.nature.com/articles/s41597-020-00666-0#citeas). A preliminary assembly was created from trimmed Pacbio reads using [Canu](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5411767/). The preliminary assembly was checked for contamination. clean contigs were retained, and a new assembly was created with [Canu](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5411767/).
+The clean assembly was then corrected with [pilon](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4237348/).
