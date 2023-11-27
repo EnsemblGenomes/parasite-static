@@ -1,0 +1,1 @@
+Koutsovoulos, G.D., Poullet, M., Elashry, A. et al. [Genome assembly and annotation of Meloidogyne enterolobii, an emerging parthenogenetic root-knot nematode](https://www.nature.com/articles/s41597-020-00666-0#citeas). Sci Data 7, 324 (2020). 
