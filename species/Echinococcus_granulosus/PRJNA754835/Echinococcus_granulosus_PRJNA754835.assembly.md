@@ -1,0 +1,2 @@
+The full assembly process is described in [Korhonen et al., (2022)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8894454/). PacBio sequence data was assembled using [Canu](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5411767/) v1.8.
+The assembly was polished with PacBio raw-reads using [Arrow](https://www.nature.com/articles/nmeth.2474) and also with BGISEQ-500 PE reads using [Pilon](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4237348/) v1.22.
