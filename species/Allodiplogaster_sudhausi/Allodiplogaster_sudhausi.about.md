@@ -1,0 +1,1 @@
+The free-living hermaphroditic nematode <em>Allodiplogaster&nbsp;sudhausi</em> is a member of the <em>Diplogastridae</em> family. It displays phenotypic plasticity, with a ploymorphism in its adult mouth-form leading to two distinct stomas of differing dimensions. The nematode is also strikingly large compared to it's relatives.
