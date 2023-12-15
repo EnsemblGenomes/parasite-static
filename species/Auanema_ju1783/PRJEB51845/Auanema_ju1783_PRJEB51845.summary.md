@@ -1,1 +1,0 @@
- <em>Auanema ju1783</em> are trioecious free-living nematodes. As their population consists of three sexual morphs (males, outcrossing females, and self-reproducing hermaphrodites) and produces skewed sex ratios, they are interesting models for studying sex determination.
