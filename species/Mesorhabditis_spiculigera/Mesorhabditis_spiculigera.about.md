@@ -1,1 +1,1 @@
-This adaptable free-living soil and freshwater nematode thrives in diverse environments, employing an unusual reproductive strategy - pseudogamy. _M. spiculigera_ plays a crucial role in ecosystem health by actively hunting and consuming other nematodes, keeping their populations in check and accelerating organic matter decomposition.
+_Mesorhabditis spiculigera_ is a free-living nematode that is widely distributed throughout the world and exhibits great potential for recycling of organic matter.
