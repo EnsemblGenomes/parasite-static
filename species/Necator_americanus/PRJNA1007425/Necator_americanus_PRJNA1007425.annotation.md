@@ -1,0 +1,1 @@
+The annotation was provided by [Erich Schwarz](https://cals.cornell.edu/erich-schwarz), [College of Agriculture and Life Sciences, Cornell University](https://cals.cornell.edu/). An in-house [BRAKER](https://github.com/Gaius-Augustus/BRAKER) pipeline assisted by RNA-Seq and proteomics data was used to predict the gene models.
