@@ -1,0 +1,1 @@
+The annotation was submitted to [GenBank](https://www.ncbi.nlm.nih.gov/datasets/gene/GCA_958295435.1) on July 6, 2023 by [LBMC UMR5239](https://www.ens-lyon.fr/LBMC) and has been imported from there.
