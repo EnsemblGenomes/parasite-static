@@ -1,2 +1,3 @@
 
-Genomic DNA sequence data for the wild-type reference strain Aroian of the major human hookworm Necator americanus are provided here: these data include long Oxford Nanopore Technologies (ONT) reads, short Illumina reads, and Dovetail/Cantata Omni-C reads (Illumina for Hi-C chromosomal scaffolding). These reads have been assembled into a chromosomally scaffolded genome for which protein-coding genes have been predicted.
+The wild-type reference strain Aroian of the major human hookworm Necator americanus was sequenced using long-read sequencing technology (Oxford Nanopore Technologies), short-read sequencing technology 
+(Illumina sequencing) and Illumina for Hi-C chromosomal scaffolding (Dovetail/Cantata Omni-C). These reads have been assembled into a chromosomally scaffolded genome. This genome was provided by [Erich Schwarz](https://cals.cornell.edu/erich-schwarz), [College of Agriculture and Life Sciences, Cornell University](https://cals.cornell.edu/).
