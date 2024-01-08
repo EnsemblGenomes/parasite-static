@@ -1,1 +1,1 @@
-Gene models were originally submited to [GenBank](https://www.ncbi.nlm.nih.gov/datasets/gene/GCA_022814885.1) on Apr 4, 2022 by [The Institute of Vegetables and Flowers CAAS](http://www.ivfcaas.ac.cn/en/) and has been imported from there initially for WormBase ParaSite Release 19. 
+Gene models were originally submited to [GenBank](https://www.ncbi.nlm.nih.gov/datasets/gene/GCA_022814885.1) on Apr 4, 2022 by [The Institute of Vegetables and Flowers CAAS](http://www.ivfcaas.ac.cn/en/) and have been imported from there initially for WormBase ParaSite Release 19. 
