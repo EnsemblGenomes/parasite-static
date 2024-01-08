@@ -1,0 +1,1 @@
+As described in [Casasa S et al., 2021](https://pubmed.ncbi.nlm.nih.gov/32931588/), gene predictions were annotated using [Augustus](https://bioinf.uni-greifswald.de/augustus/) with protein sequences from _P. pacificus_ and _C. elegans_ used as training set. Mitochondrial genomes were annotated using [MITOS2](http://mitos.bioinf.uni-leipzig.de/).
