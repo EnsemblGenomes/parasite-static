@@ -1,0 +1,1 @@
+Raw reads of _Bunonema sp._ (Illumina NextSeq 500 - short-read sequencing technology) were trimmed and quality-filtered using [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic), followed by a [SPAdes](https://github.com/ablab/spades) assembly and bacterial contamination removal.
