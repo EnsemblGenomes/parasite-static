@@ -1,0 +1,2 @@
+This assembly was originally submited to [INSDC](https://www.insdc.org/)/[ENA](https://www.ebi.ac.uk/ena) records on Apr 4, 2022 by [The Institute of Vegetables and Flowers CAAS](http://www.ivfcaas.ac.cn/en/) and has been imported from there initially for WormBase ParaSite Release 19. An 
+Invertebrate sample from _Ditylenchus destructor_ (Isolate: BazhouSP) was sequencing using PacBio long-read sequencing technology. The reads were assembled using [wtdbg2 v. 2.5](https://github.com/ruanjue/wtdbg2) assembler.
