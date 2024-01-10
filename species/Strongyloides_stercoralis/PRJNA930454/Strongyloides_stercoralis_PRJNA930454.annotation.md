@@ -1,0 +1,7 @@
+The genes were annotated using an in-house pipeline using both the MAKER pipeline and the FunAnnotate pipeline by the [Thomas Nutman Lab](https://www.niaid.nih.gov/research/thomas-nutman-md) at the [Laboratory of Parasitic Diseases](https://www.niaid.nih.gov/research/lab-parasitic-diseases) of the [National Institute of Allergy and Infectious Diseases (NIAID)](https://www.niaid.nih.gov/).
+
+Three iterations of annotation were run with MAKER. In the first iteration, a gene model was generated using proteins and transcripts taken from the previous _S. stercoralis_ [GCA_000947215](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000947215.1/) genome. The gene model used in the second iteration was taken from the first iteration, and the gene model used in the final iteration was from the second iteration.
+
+For FunAnnotate, gene models were first predicted using the [Augustus](https://github.com/Gaius-Augustus/Augustus) c_elegans_trsk database, the [BUSCO](https://busco.ezlab.org/) nematoda_odb10 database, and the proteins and transcripts for _S. strongyloides_ taken from the previous _S. stercoralis_ [GCA_000947215](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000947215.1/) genome. After gene prediction, the genome was annotated using the gene model.
+
+Once both annotations were generated, the overlap between the two was then found, and a combined annotation was generated, which used high-quality genes found in either GFF.

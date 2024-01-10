@@ -1,0 +1,4 @@
+The genome assembly was produced by the [Thomas Nutman Lab](https://www.niaid.nih.gov/research/thomas-nutman-md) at the [Laboratory of Parasitic Diseases](https://www.niaid.nih.gov/research/lab-parasitic-diseases) of the [National Institute of Allergy and Infectious Diseases (NIAID)](https://www.niaid.nih.gov/), using Oxford Nanopore reads followed by a genome assembly pipeline including 
+[Flye](https://github.com/fenderglass/Flye) 2.8.1 with a minimum overlap allowance of 2500bp, [Necat](https://github.com/xiaochuanle/NECAT) v. December-2021; [Smart Denovo](https://github.com/ruanjue/smartdenovo) v. December-2021; [Canu](https://github.com/marbl/canu) v. December-2021. Following assembly, no polishing occurred as this is built into Flye.
+
+This genome replaced the previous _S. stercoralis_ [GCA_000947215](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000947215.1/) genome as of WormBase ParaSite release 19.
