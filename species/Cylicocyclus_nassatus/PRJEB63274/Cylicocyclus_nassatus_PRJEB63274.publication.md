@@ -1,1 +1,1 @@
-Sallé G, Courtot E, Cabau C, Parrinello H, Serreau D, Reigner F, Gesbert A, Jacquinot L, Lenhof O, Aimé A, Picandet V, Kuzmina T, Holovachov O, Bellaw J, Nielsen MK, von Samson-Himmelstjerna G, Valière S, Gislard M, Lluch J, Kuchly C, Klop C. [Spatio-temporal diversity and genetic architecture of pyrantel resistance in Cylicocyclus nassatus, the most abundant horse parasite.](https://www.biorxiv.org/content/10.1101/2023.07.19.549683v1) bioRxiv 2023.07.19.549683.
+
