@@ -1,0 +1,1 @@
+<em>Paragonimus&nbsp;kellicotti</em> or the North American lung fluke, is a trematode of the family <em>Paragonimidae</em>, responsible for causing a food-borne infection. Humans are commonly infected by eating raw or undercooked crayfish meat that contains the parasite larvae. 
