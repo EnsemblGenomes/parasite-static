@@ -1,0 +1,1 @@
+<em>Paragonimus&nbsp;skrjabinimiyazakii</em> is one of two species of <em>Paragonimus</em> thought to cause Paragonimiasis in humans. Paragonimiasis is a food-borne zoonosis endemic to western Japan. 
