@@ -1,1 +1,1 @@
-The genome was annotated using [BRAKER](https://academic.oup.com/nargab/article/3/1/lqaa108/6066535).
+The full annotation process is outlined in [Ste-Croix et al., (2022)](https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/36742265/). The genome was annotated using [BRAKER](https://academic.oup.com/nargab/article/3/1/lqaa108/6066535).
