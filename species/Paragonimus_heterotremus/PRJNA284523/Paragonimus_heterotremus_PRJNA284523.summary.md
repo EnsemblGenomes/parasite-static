@@ -1,1 +1,1 @@
-<em>Paragonimus&nbsp;heterotremus</em> or the human lung fluke, is a member of the <em>Paragonimus</em> family. Alongside <em>Paragonimus&nbsp;westermani</em>, the species is known to routinely infect humans, causing paragonimiasis infection. 
+
