@@ -1,1 +1,1 @@
-Tandonnet S, Haq M, Turner A, Grana T, Paganopoulou P, Adams S, Dhawan S, Kanzaki N, Nuez I, Félix MA, Pires-daSilva A. [De Novo Genome Assembly of Auanema Melissensis, a Trioecious Free-Living Nematode.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9984802/) J Nematol. 2023 Feb 7;54(1):20220059. 
+36879950
